@@ -1,44 +1,81 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Basic
+title: Michael
+subtitle: 写写代码，玩玩生活
+# welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: 你好，我是Michael！欢迎来到我的个人主页.</br>代码搬运工，目前就职于东方证券，任职H5/iOS高级研发工程师。
+creator: <a href="http://michaelyb.top</a>
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Michael's blog
-email: gdmichael520@163.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://michaelyb.top" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.michaelyb.top"
 
-# Build settings
+#enforce_ssl: "michaelyb.top"
+#enforce_ssl: "michaelyb.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+# highlighter: rouge
+# highlighter: pygments
+
+# Jekyll 3.0 之后，会默认打开这一项，我们可以不用人为打开的
+highlighter: rouge
+
+# markdown: redcarpet
+# redcarpet:
+# extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+
+
 markdown: kramdown
-theme: minima
-# theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
+kramdown:
+  input: GFM
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+#cover_color: orange
+#cover_color: purple
+cover_color: green
+#cover_color: red
+#cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: 进入博客
+nav:
+    - {title: 全部, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于, description: 了解更多关于我, url: '/about/'}
+
+    # - {title: 关于, description: 了解更多关于我, url: '/about/index.html'}
+    # - {title: 关于我, description: about, url: '/about'}
+
+# Navigation buttons in the front page.
+# nav:
+#     - {title: Projects, description: My Projects, url: 'http://project.xietao3.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+#gems: [jekyll-paginate]
+#gems: [jekyll-paginate,jekyll-sitemap]
+plugins: [jekyll-paginate,jekyll-sitemap]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    # disqus: xietao3
+    # duoshuo: xietao3
+    livere: Michael
+    # libili: Michael
+    # livere: Michael  来必力
+    
+# Social
+social:
+    weibo: 爱就往死了爱
+    github: Michaelyb520
+    csdn: lcezyb520
+  
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
