@@ -6,6 +6,7 @@
   <!--<meta name="baidu-site-verification" content="vuqzu4486i" />-->
   <!--<meta name="baidu-site-verification" content="yR54QJzaFG" />-->
   <!--<meta name="baidu-site-verification" content="ptFKLHARcu" />-->
+  <!--百度站长工具分析统计-->
   <meta name="baidu-site-verification" content="ytP4KF7wCi" />
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -29,18 +30,32 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
-  
-  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
 
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?df0994aacf7a4c9779a5632908de3196";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+  <!--谷歌站长分析工具统计-->
+  <!--<meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />-->
+  <meta name="google-site-verification" content="3gfvkYryZZIDhyDwzN-IYrF7tATxamU4DgmcRSRWjh0" />
 
-  
+<!--<script>-->
+<!--var _hmt = _hmt || [];-->
+<!--(function() {-->
+  <!--var hm = document.createElement("script");-->
+  <!--hm.src = "https://hm.baidu.com/hm.js?df0994aacf7a4c9779a5632908de3196";-->
+  <!--var s = document.getElementsByTagName("script")[0]; -->
+  <!--s.parentNode.insertBefore(hm, s);-->
+<!--})();-->
+<!--</script>-->
+
+  <!--Web版本网站统计，不是移动端app的百度统计哈-->
+  <script>
+      var _hmt = _hmt || [];
+      (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?f23c3d4094ad48f36e3db36be61d1124";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();
+  </script>
+
+
+
 </head>
