@@ -11,7 +11,7 @@ $(document).ready(function() {
             // $('.panel-cover').backgroundImage = url('/assets/images/background-cover.jpg');
         } else {
             $('.panel-cover').css('max-width', currentWidth);
-            $('.panel-cover').animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function() {} );
+            $('.panel-cover').animate({'max-width': '600px', 'width': '25%'}, 400, swing = 'swing', function() {} );
             // $('.panel-cover').backgroundImage = url('/assets/images/background-cover---.jpg');
         }
     });
