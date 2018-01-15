@@ -1,12 +1,12 @@
 # Basic
 title: Michael
 #site_title: Michael's Blog
-subtitle: <br/>写写代码，说说人生
+subtitle: 写写代码，说说人生
 welcome_message: H5 / Java / Objc / Swift / Vue / RN
 #welcome_message: ObjC 中国与 objc.io 合作最新作品<a href="https://objccn.io/products/" target="_blank">《函数式 Swift》,《Core Data》,《Swift 进阶》及《集合类型优化》已经发布</a>，<a href="https://www.boxueio.com/register/ec84c3dd183b0acc820d5eae474d499d">泊学网正在开展订阅赠书活动，也欢迎前往了解</a>
 #welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: 你好，我是Michael！欢迎来到我的个人主页。</br>代码搬运工，目前就职于XX证券，任职高级软件研发工程师。
-creator: <a href="http://michaelyb.top</a>
+description: 你好，我是Michael，欢迎来到我的个人主页。</br>代码搬运工，目前就职于XX证券，任职高级软件研发工程师。
+creator: <a href="http://michaelyb.top">@michaelyb</a>
 
 url: "http://www.michaelyb.top"
 
@@ -62,6 +62,9 @@ nav:
 plugins: [jekyll-paginate,jekyll-sitemap]
 paginate: 10
 paginate_path: "page/:num/"
+
+# 摘要
+excerpt_separator: <!--excerpt-->
 
 # Comment
 comment:

@@ -29,31 +29,24 @@ tag: iOS
 
 1、设置状态栏颜色：
 
-```
-
+```Objc
 info.plist 添加 View controller-based status bar appearance - NO     
 代码里写 [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; 再次运行后状态栏就会变成白色。    
-
 ```
 
 2、左滑返回手势失效了怎么办：   
 
-```    
-
+```Objc  
 设置 navigationItem.leftBarButtonItem 之后，左滑返回手势就会失效。设置一下 UIGestureRecognizerDelegate 代理即可：
-
 self.navigationController.interactivePopGestureRecognizer.delegate = self;
-
 ```
 
 3、让 TableView的 下拉 和 上拉 显示不一样的背景颜色：
 
-```
-
-给 TableView 上加一个 View，View 的 Frema：
+```Objc
+给 TableView 上加一个 View，View 的 Frame：
 CGRectMake(0, -self.view.bounds.size.height, self.view.bounds.size.width, self.view.bounds.size.height + 2)，
 给变View的背景颜色就可以了。
-
 ```
 
 
