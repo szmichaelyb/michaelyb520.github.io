@@ -1,8 +1,9 @@
 ---
 layout: post
 title: iOS开发中的小问题记录
-date: 2016-12-02 
-tag: iOS
+author: Michael
+date: 2016-12-02 22:15:24.000000000 +09:00
+tags: iOS
 ---
 
 ### NSKeyedArchiver 自定义对象写文件

@@ -3,7 +3,7 @@ layout: post
 title: 使用Jekyll搭建自己的博客-全教程
 author: Michael
 date: 2018-01-16 11:50:11.000000000 +08:00
-tags: 个人博客
+tags: 博客建设
 ---
 
 > Jekyll是一款Blog生成器，不需要数据库的支持。jekyll用于发行生成静态网页发行。

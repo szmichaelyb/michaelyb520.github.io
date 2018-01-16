@@ -2,6 +2,7 @@
 layout: post
 title: 近期做的两三事
 date: 2013-07-21 00:53:10.000000000 +09:00
+author: Michael
 tags: 胡言乱语集
 ---
 夏日炎炎，无心睡眠。

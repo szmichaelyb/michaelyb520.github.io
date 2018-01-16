@@ -2,6 +2,7 @@
 layout: post
 title: TestFlight——完美的iOS app测试方案
 date: 2012-01-17 22:17:25.000000000 +09:00
+author: Michael
 tags: 南箕北斗集
 ---
 转载本文请保留以下原作者信息:  

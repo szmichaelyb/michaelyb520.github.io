@@ -1,9 +1,10 @@
 ---
 title: 包教包会-贝塞尔曲线的绘制原理与应用
 layout: post
-author: 谢涛
+author: Michael
 date: '2017-06-22 22:03:11 +0800'
 categories: iOS
+tags: iOS动画
 ---
 
 ![图来自pexels](http://upload-images.jianshu.io/upload_images/1319710-f68c70b0ca4ac62c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

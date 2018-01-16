@@ -2,6 +2,7 @@
 layout: post
 title: Unity 3D中的内存管理
 date: 2012-11-16 00:16:54.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: iOS中使用blend改变图片颜色
 date: 2013-04-29 00:41:33.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

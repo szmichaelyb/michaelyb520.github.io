@@ -1,9 +1,10 @@
 ---
 title: 呦~ 玩转Git 多远端的应用
 layout: post
-author: 谢涛
+author: Michael
 date: '2017-04-21 15:50:24 +0800'
 categories: Git
+tags: 项目管理-SVN与GIT
 ---
 
 ![Git](http://upload-images.jianshu.io/upload_images/1319710-556d3532d7de6bbd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/640)

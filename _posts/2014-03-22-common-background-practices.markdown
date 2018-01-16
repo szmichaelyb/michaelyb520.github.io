@@ -2,6 +2,7 @@
 layout: post
 title: 常见的后台实践
 date: 2014-03-22 01:07:50.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 ## 题外

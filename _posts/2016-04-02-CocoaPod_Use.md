@@ -1,8 +1,9 @@
 ---
 layout: post
 title: CocoaPods使用心得
-date: 2016-04-02
-tag: iOS 
+date: 2016-04-02 16:50:11.000000000 +08:00
+author: Michael
+tags: iOS 
 --- 
 
 ### 简介：   

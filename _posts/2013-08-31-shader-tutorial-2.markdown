@@ -2,6 +2,7 @@
 layout: post
 title: 猫都能学会的Unity3D Shader入门指南（二）
 date: 2013-08-31 00:57:34.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

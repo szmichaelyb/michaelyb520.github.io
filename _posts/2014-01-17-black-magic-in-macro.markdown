@@ -2,6 +2,7 @@
 layout: post
 title: 宏定义的黑魔法 - 宏菜鸟起飞手册
 date: 2014-01-17 01:03:36.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

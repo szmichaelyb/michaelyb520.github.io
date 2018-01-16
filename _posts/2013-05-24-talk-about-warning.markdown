@@ -2,6 +2,7 @@
 layout: post
 title: 谈谈Objective-C的警告
 date: 2013-05-24 00:43:19.000000000 +09:00
+author: Michael
 tags: 胡言乱语集
 ---
 > 一个有节操的程序员会在乎自己的代码的警告，就像在乎饭碗边上有只死蟑螂那样。

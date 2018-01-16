@@ -2,6 +2,7 @@
 layout: post
 title: iOS内购实现及测试Check List
 date: 2013-11-18 01:01:16.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

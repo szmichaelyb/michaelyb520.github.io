@@ -2,6 +2,7 @@
 layout: post
 title: 苹果应用描述中不能使用特殊字符的对应方法
 date: 2014-04-28 00:40:39.000000000 +09:00
+author: Michael
 tags: 南箕北斗集
 ---
 

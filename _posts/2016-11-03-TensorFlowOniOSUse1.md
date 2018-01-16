@@ -1,7 +1,8 @@
 ---
 layout: post
 title: TensorFlow 在 iOS 平台上的使用(一)
-date: 2016-11-03 
+date: 2016-11-03 22:15:24.000000000 +09:00
+author: Michael
 tags: 机器学习    
 ---
 

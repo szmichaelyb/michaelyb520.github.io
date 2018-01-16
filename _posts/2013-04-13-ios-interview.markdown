@@ -2,6 +2,7 @@
 layout: post
 title: 上级向的十个iOS面试问题
 date: 2013-04-13 00:39:32.000000000 +09:00
+author: Michael
 tags: 南箕北斗集
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: TDD的iOS开发初步以及Kiwi使用入门
 date: 2014-02-14 01:06:19.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

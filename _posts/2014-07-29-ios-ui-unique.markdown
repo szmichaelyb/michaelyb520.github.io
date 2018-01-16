@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2014 Session笔记 - iOS界面开发的大一统
 date: 2014-07-29 10:54:18.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 ![size-classes](/assets/images/2014/size-classes-header.png)

@@ -1,9 +1,10 @@
 ---
 title: Jekyll + Github Pages构建个人技术博客
 layout: post
-author: 谢涛
+author: Michael
 date: '2016-10-27 17:31:24 +0800'
 categories: Blog
+tags: 博客建设
 ---
 
 >写技术博客可以积累并且巩固所学的知识，温故知新，还能传播知识，帮助他人解决问题。

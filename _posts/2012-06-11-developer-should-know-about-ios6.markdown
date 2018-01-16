@@ -2,6 +2,7 @@
 layout: post
 title: 开发者所需要知道的iOS6 SDK新特性
 date: 2012-06-11 23:35:11.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: 算法-归并排序
 layout: post
-author: 谢涛
+author: Michael
 date: '2016-11-18 10:24:24 +0800'
 categories: Blog
+tags: 算法设计
 ---
 >阅读量真是少，又不想投稿，怎么办
 

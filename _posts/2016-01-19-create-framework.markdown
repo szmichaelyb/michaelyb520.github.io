@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 如何打造一个让人愉快的框架
+author: Michael
 date: 2016-01-19 15:32:24.000000000 +09:00
 tags: 能工巧匠集
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2013 Session笔记 - iOS7中的ViewController切换
 date: 2013-10-11 00:59:56.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

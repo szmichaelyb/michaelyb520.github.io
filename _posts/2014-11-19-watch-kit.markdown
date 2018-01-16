@@ -2,6 +2,7 @@
 layout: post
 title: Apple WatchKit 初探
 date: 2014-11-19 17:40:22.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 ![](/assets/images/2014/watchkit-0.png)

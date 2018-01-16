@@ -1,9 +1,10 @@
 ---
 title: 领导力+开营式
 layout: post
-author: 谢涛
+author: Michael
 date: '2016-12-20 10:33:24 +0800'
 categories: Blog
+tags: 团队建设
 ---
 ![leader.jpg](http://upload-images.jianshu.io/upload_images/1319710-c243b2bf0fe9adbd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 前言

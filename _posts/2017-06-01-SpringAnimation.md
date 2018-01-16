@@ -1,9 +1,10 @@
 ---
 title: 包教包会-弹性动画的原理与实现
 layout: post
-author: 谢涛
+author: Michael
 date: '2017-06-01 18:58:24 +0800'
 categories: iOS
+tags: iOS动画
 ---
 ![bounce](http://upload-images.jianshu.io/upload_images/1319710-9a26ccb3e9d384cc.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

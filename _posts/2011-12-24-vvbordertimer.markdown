@@ -2,6 +2,7 @@
 layout: post
 title: VVBorderTimer
 date: 2011-12-24 22:04:43.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 GitHub 链接: [https://github.com/onevcat/VVBorderTimerView](https://github.com/onevcat/VVBorderTimerView)

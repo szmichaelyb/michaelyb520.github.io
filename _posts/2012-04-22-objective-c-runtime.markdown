@@ -2,6 +2,7 @@
 layout: post
 title: 深入Objective-C的动态特性
 date: 2012-04-22 23:18:44.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

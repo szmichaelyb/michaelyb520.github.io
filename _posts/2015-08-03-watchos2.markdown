@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WWDC15 Session笔记 - 30 分钟开发一个简单的 watchOS 2 app
+author: Michael
 date: 2015-08-03 23:23:34.000000000 +09:00
 tags: 能工巧匠集
 ---

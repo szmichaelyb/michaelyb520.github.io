@@ -3,7 +3,7 @@ layout: post
 title: HEXO进阶
 author: Michael
 date: 2016-06-12 16:50:11.000000000 +08:00
-tag: 个人博客
+tag: 博客建设
 ---
 
 HEXO接近是最近有一些朋友提出的问题，然后我做了总结，如果你也在使用HEXO，不妨看看，应该会有些帮助。

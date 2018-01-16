@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2012 Session笔记——405 Modern Objective-C
 date: 2012-06-24 23:39:08.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

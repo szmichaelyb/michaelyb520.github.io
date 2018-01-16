@@ -1,9 +1,10 @@
 ---
 title: 编程秘籍之四两拨千斤-递归
 layout: post
-author: 谢涛
+author: Michael
 date: '2017-02-25 21:40:24 +0800'
 categories: Blog
+tags: 算法设计
 ---
 ![循环](http://upload-images.jianshu.io/upload_images/1319710-902e959e981bf301.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/640)
 >刷了一段时间剑指offer的算法题，收获了很多，其中对递归的印象尤其深。递归给我一种四两拨千斤的感觉。

@@ -2,6 +2,7 @@
 layout: post
 title: 赴日半年的一些杂感
 date: 2013-04-01 00:35:58.000000000 +09:00
+author: Michael
 tags: 胡言乱语集
 ---
 

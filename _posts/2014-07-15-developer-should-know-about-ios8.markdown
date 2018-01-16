@@ -2,6 +2,7 @@
 layout: post
 title: 开发者所需要知道的 iOS8 SDK 新特性
 date: 2014-07-15 22:27:05.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 ![](/assets/images/2014/wwdc2014-badge.jpg)

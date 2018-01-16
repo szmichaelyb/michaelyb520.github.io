@@ -1,9 +1,10 @@
 ---
 title: 算法-插入排序
 layout: post
-author: 谢涛
+author: Michael
 date: '2016-11-16 10:00:24 +0800'
 categories: Blog
+tags: 算法设计
 ---
 >生活总是充满了惊喜，无论是惊还是喜。
 

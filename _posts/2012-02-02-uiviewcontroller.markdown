@@ -2,6 +2,7 @@
 layout: post
 title: UIViewController的误用
 date: 2012-02-02 22:50:53.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 ![](http://www.onevcat.com/wp-content/uploads/2012/02/vc.jpg)

@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2012 Session笔记——202, 228, 232 AutoLayout（自动布局）入门
 date: 2012-09-20 00:01:31.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

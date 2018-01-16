@@ -2,6 +2,7 @@
 layout: post
 title: 关于 Swift 的一点初步看法
 date: 2014-06-03 12:05:44.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 ![](/assets/images/2014/swift.png)

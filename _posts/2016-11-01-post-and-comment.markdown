@@ -4,7 +4,7 @@ layout: post
 author: Michael
 date: '2016-11-01 23:16:24 +0800'
 categories: Blog
-tags: 个人博客
+tags: 博客建设
 ---
 
 > 我想成为聪明的人，所以我在学习。

@@ -1,9 +1,10 @@
 ---
 title: iOS无埋点数据统计实践
 layout: post
-author: 谢涛
+author: Michael
 date: '2017-05-04 16:50:24 +0800'
 categories: iOS
+tags: 应用统计
 ---
 
 ![](http://upload-images.jianshu.io/upload_images/1319710-09d59f4594c635e3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

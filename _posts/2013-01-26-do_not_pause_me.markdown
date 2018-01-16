@@ -2,6 +2,7 @@
 layout: post
 title: Unity3D中暂停时的动画及粒子效果实现
 date: 2013-01-26 00:23:34.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

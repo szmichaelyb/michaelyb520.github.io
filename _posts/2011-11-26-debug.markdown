@@ -2,6 +2,7 @@
 layout: post
 title: Xcode4.2的debug小技巧
 date: 2011-11-26 23:58:57.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 <a href="http://en.wikipedia.org/wiki/Gdb">GNU Debugger(gdb)</a>

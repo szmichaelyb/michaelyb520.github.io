@@ -2,6 +2,7 @@
 layout: post
 title: 近期求职总结-AHRP和DeNA面试
 date: 2011-10-31 23:52:17.000000000 +09:00
+author: Michael
 tags: 胡言乱语集
 ---
 <strong>AHRP2012秋季项目已经结束，春季项目博主可以以内定者的身份进行内推，具体可以参看<a href="http://www.onevcat.com/2012/01/ahrp2012/">这篇帖子</a>。</strong></span>

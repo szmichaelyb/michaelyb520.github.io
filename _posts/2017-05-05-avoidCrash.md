@@ -1,9 +1,10 @@
 ---
 title: iOS - 被赶尽杀绝的Crash
 layout: post
-author: 谢涛
+author: Michael
 date: '2017-05-05 15:10:24 +0800'
 categories: iOS
+tags: 开发测试
 ---
 
 ![](http://upload-images.jianshu.io/upload_images/1319710-a07a36728197181e.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

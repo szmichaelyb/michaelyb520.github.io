@@ -2,6 +2,7 @@
 layout: post
 title: 两个人一起记账吧～ Our Money
 date: 2013-04-06 00:37:13.000000000 +09:00
+author: Michael
 tags: 南箕北斗集
 ---
 

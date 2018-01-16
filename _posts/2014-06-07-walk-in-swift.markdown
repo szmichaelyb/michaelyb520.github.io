@@ -2,6 +2,7 @@
 layout: post
 title: 行走于 Swift 的世界中
 date: 2014-06-07 18:23:44.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 ![](/assets/images/2014/swift.png)

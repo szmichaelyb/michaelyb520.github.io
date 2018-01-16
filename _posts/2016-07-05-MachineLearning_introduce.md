@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "机器学习入门（名词科普）"
-date: 2016-07-05 
+date: 2016-07-05 16:50:11.000000000 +08:00
+author: Michael
 description: "机器学习入门篇"
 tag: 机器学习  
 

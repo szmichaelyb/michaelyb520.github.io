@@ -2,6 +2,7 @@
 layout: post
 title: "ObjC 中国的工作回顾和之后的计划"
 date: 2016-04-07 10:51:24.000000000 +09:00
+author: Michael
 tags: 南箕北斗集
 ---
 

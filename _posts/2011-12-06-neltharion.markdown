@@ -2,6 +2,7 @@
 layout: post
 title: 别了，耐萨里奥
 date: 2011-12-06 00:33:41.000000000 +09:00
+author: Michael
 tags: 胡言乱语集
 ---
 

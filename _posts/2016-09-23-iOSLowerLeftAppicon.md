@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "iOS设备左下角出现Appicon"
-date: 2016-09-23 
+date: 2016-09-23 00:40:39.000000000 +09:00
+author: Michael
 tags: iOS   
 ---
 

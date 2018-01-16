@@ -2,6 +2,7 @@
 layout: post
 title: OpenCV 在 iOS 开发环境下的编译和配置
 date: 2012-03-03 23:06:23.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2012 Session笔记——200 What is new in Cocoa Touch
 date: 2012-06-20 23:37:08.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

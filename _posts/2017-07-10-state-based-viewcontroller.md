@@ -2,6 +2,7 @@
 layout: post
 title: "单向数据流动的函数式 View Controller"
 date: 2017-07-13 10:05:00.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

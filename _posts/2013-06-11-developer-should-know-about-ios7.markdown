@@ -2,6 +2,7 @@
 layout: post
 title: 开发者所需要知道的iOS7 SDK新特性
 date: 2013-06-11 00:45:02.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

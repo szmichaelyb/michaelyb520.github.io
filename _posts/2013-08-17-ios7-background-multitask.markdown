@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2013 Session笔记 - iOS7中的多任务
 date: 2013-08-17 00:56:02.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

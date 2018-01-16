@@ -1,7 +1,8 @@
 ---
 layout: post
 title: iOS开发迎来机器学习的春天---TensorFlow 
-date: 2016-07-07 
+date: 2016-07-07 16:50:11.000000000 +08:00
+author: Michael
 tags: 机器学习    
 ---
 

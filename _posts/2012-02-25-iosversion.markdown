@@ -2,6 +2,7 @@
 layout: post
 title: 符合iOS系统兼容性需求的方法
 date: 2012-02-25 22:54:42.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 <a href="http://www.onevcat.com/wp-content/uploads/2012/02/ios.jpg"><img class="aligncenter size-full wp-image-673" title="ios" src="http://www.onevcat.com/wp-content/uploads/2012/02/ios.jpg" alt=""/></a>

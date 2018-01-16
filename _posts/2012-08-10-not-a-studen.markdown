@@ -2,6 +2,7 @@
 layout: post
 title: 学生时代的终焉
 date: 2012-08-10 23:53:51.000000000 +09:00
+author: Michael
 tags: 胡言乱语集
 ---
 

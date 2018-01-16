@@ -2,6 +2,7 @@
 layout: post
 title: 代码手写UI，xib和StoryBoard间的博弈，以及Interface Builder的一些小技巧
 date: 2013-12-31 01:02:21.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: Kiwi 使用进阶 Mock, Stub, 参数捕获和异步测试
 date: 2014-05-09 11:48:33.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

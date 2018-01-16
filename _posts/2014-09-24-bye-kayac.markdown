@@ -2,6 +2,7 @@
 layout: post
 title: 偷得浮生半月闲
 date: 2014-09-24 21:57:31.000000000 +09:00
+author: Michael
 tags: 胡言乱语集
 ---
 ![](/assets/images/2014/bye-kayac.jpg)

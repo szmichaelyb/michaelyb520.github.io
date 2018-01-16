@@ -2,6 +2,7 @@
 layout: post
 title: Pomodoro Do - 拖延症患者的福音
 date: 2012-07-25 23:50:56.000000000 +09:00
+author: Michael
 tags: 南箕北斗集
 ---
 

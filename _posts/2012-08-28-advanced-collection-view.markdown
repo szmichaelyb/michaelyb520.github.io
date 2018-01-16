@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2012 Session笔记——219 Advanced Collection Views and Building Custom Layouts
 date: 2012-08-28 23:55:59.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

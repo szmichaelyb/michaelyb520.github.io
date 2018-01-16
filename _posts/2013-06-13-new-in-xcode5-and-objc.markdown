@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2013 Session笔记 - Xcode5和ObjC新特性
 date: 2013-06-13 00:48:32.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

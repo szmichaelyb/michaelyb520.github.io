@@ -3,8 +3,10 @@ layout: post
 title: Jekyll搭建个人博客
 author: Michael
 date: 2016-10-14 16:50:11.000000000 +08:00
-tags: 个人博客   
+tags: 博客建设  
 ---
+
+
 
 　之前写了一篇[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)的教程获得了很好评，尤其是在[简书](http://www.jianshu.com/p/465830080ea9)上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。
 
@@ -20,6 +22,10 @@ tags: 个人博客
 
 　　Jekyll 是一个免费的简单静态网页生成工具，可以配合第三方服务例如： Disqus（评论）、多说(评论) 以及分享 等等扩展功能，Jekyll 可以直接部署在 Github（国外） 或 Coding（国内） 上，可以绑定自己的域名。[Jekyll中文文档](http://jekyll.bootcss.com/)、[Jekyll英文文档](https://jekyllrb.com/)、[Jekyll主题列表](http://jekyllthemes.org/)。
 
+```html
+题外话，注意：Tags还可以这样写。但是最好不要这样写。
+tags: [博客建设, 个人博客] 
+```
 
 ### Jekyll 环境配置
 

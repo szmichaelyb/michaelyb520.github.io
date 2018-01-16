@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2012 Session笔记——205 Introducing Collection Views
 date: 2012-06-30 23:41:15.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

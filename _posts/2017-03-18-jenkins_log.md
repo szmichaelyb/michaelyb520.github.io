@@ -1,9 +1,10 @@
 ---
 title: Jenkins+fir 上传更新日志
 layout: post
-author: 谢涛
+author: Michael
 date: '2017-03-17 14:50:24 +0800'
 categories: Blog
+tags: 开发测试
 ---
 ![Jenkins](http://upload-images.jianshu.io/upload_images/1319710-3cc4a32689f5ba94.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 >iOS开发自动打包应该很多人用了，但是其中还有一些地方不够完美，比如说打包上传成功fir和邮件没有更新日志内容，嗯，我要说的就是这个。

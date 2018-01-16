@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Git教程"
-date: 2016-07-13   
-tag: 工具 
+date: 2016-07-13 16:50:11.000000000 +08:00
+author: Michael
+tags: 项目管理-SVN与GIT 
 ---
 
 ### 介绍       

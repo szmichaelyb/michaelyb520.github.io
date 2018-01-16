@@ -2,6 +2,7 @@
 layout: post
 title: WWDC 2013 Session笔记 - SpriteKit快速入门和新时代iOS游戏开发指南
 date: 2013-06-16 00:51:18.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

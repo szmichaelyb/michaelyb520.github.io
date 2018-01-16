@@ -2,6 +2,7 @@
 layout: post
 title: 颜色选取和转换小工具
 date: 2012-05-10 23:26:12.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 

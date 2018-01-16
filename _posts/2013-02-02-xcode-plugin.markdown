@@ -2,6 +2,7 @@
 layout: post
 title: Xcode 4 插件制作入门
 date: 2013-02-02 00:32:39.000000000 +09:00
+author: Michael
 tags: 能工巧匠集
 ---
 
