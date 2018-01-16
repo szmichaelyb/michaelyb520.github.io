@@ -6,8 +6,6 @@ date: 2018-01-16 11:50:11.000000000 +08:00
 tags: 博客搭建
 ---
 
-## Jekyll介绍
-
 > Jekyll是一款Blog生成器，不需要数据库的支持。jekyll用于发行生成静态网页发行。
 
 ## 1. 文件结构
@@ -198,9 +196,3 @@ $ git commit -m "提交jekyll默认页面"
 # 线上的站点是部署在master下面的
 $ git push origin master
 ```
-
-
-
-
-
-
