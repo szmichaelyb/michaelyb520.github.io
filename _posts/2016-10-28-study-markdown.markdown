@@ -1,10 +1,12 @@
 ---
 title: 学习Markdown
 layout: post
-author: 谢涛
-date: '2016-09-30 17:31:24 +0800'
+author: Michael
+date: '2016-10-28 17:31:24 +0800'
 categories: Blog
+tags: 个人博客
 ---
+
 > 这个世界太浮夸了，做技术的攀比也这么严重，还是要想想自己想要的是什么，再出发。
 
 # 前言

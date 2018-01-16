@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "HEXO搭建个人博客"
-date: 2015-08-25 
+title: "HEXO搭建个人博客" 
 description: "HEXO配置，HEXO+Github，搭建自己的博客"
-tag: 博客 
+author: Michael
+date: 2016-08-25 16:50:11.000000000 +08:00
+tags: 个人博客
 ---   
 
 　　经过各种找资料，踩过各种坑，终于使用 hexo 搭建个人博客初步完成了，域名目前用得时 github 的，我的 hexo 是 3.1.1 版本，hexo 不同的版本，很多配置都不一样。好吧，废话不多说了，开始吧。     
