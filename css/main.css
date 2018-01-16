@@ -186,13 +186,15 @@ table {
   line-height: 40px;
   border-spacing: 0;
   /*border: 2px solid #DEB887;*/
-  border: 2px solid #13575F;
+  /*border: 2px solid #13575F;*/
+  border: 2px solid rgba(21, 111, 120, 1.0);
   width: 90%;
   margin: 50px auto; }
 
 thead tr:first-child {
   /*background-color: #DEB887;*/
-  background-color: #13575F;
+  /*background-color: #13575F;*/
+  background-color: rgba(21, 111, 120, 1.0);
   color: #F8F8F8;
   border: none; }
 
