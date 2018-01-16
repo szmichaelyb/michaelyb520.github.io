@@ -52,7 +52,7 @@ destination: _deploy
 
 等同于命令：`jekyll build --source _source --destination _deploy`。
 
-## 3. jekyll原理
+## 3. Jekyll原理
 
 ### Jekyll使用Liquid语言
 
@@ -119,7 +119,7 @@ modulo - 余数，如`{ { 3 | modulo:2 } } #=> 1`
 `for` - 用于循环 For loop（for ... in ... 。limit:int使你可以限制接受的循环项个数；offset:int可以可以让你从循环集合的第 n 项开始；reversed让你可以翻转循环）
 ```
 
-### jekyll新增的过滤器：
+### Jekyll新增的过滤器：
 
 ```html
 `date_to_string` - 日期转化为短格式
