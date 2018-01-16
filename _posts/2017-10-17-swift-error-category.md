@@ -17,9 +17,7 @@ tags: 能工巧匠集
 
 ```swift
 // Simple Domain Error 的例子
-
 let num = Int("hello world") // nil
-
 let element = dic["key_not_exist"] // nil
 ```
 
