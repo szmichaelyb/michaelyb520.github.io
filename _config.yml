@@ -26,11 +26,9 @@ highlighter: rouge
 # redcarpet:
 # extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
-
 markdown: kramdown
 kramdown:
   input: GFM
-
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 #cover_color: orange
@@ -49,7 +47,6 @@ nav:
     - {title: 关于我, description: about, url: '/about'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/index.html'}
-
 
 # Navigation buttons in the front page.
 # nav:
