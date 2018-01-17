@@ -8,7 +8,6 @@
        <div class="post-list__meta"><time datetime="{{current.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{current.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{current.tags}}</span><a class="btn-border-small" href={{current.url}}>继续阅读</a></div>
    </div>
    {% endif %}
-   
    {% if page.previous %}
    {% assign current = page.previous %}
    <div class="read-more-item">

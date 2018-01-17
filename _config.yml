@@ -1,6 +1,6 @@
 # Basic
 title: Michael
-#site_title: Michael's Blog
+#site_title: Michael's Blog <br/>天下事有难易乎？为之，则难者亦易矣；不为，则易者亦难矣。
 subtitle: 写写代码，说说人生
 welcome_message: H5 / Java / Objc / Swift / Vue / RN
 #welcome_message: ObjC 中国与 objc.io 合作最新作品<a href="https://objccn.io/products/" target="_blank">《函数式 Swift》,《Core Data》,《Swift 进阶》及《集合类型优化》已经发布</a>，<a href="https://www.boxueio.com/register/ec84c3dd183b0acc820d5eae474d499d">泊学网正在开展订阅赠书活动，也欢迎前往了解</a>
@@ -46,7 +46,7 @@ blog_button:
 nav:
     - {title: 全部, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
-    # - {title: 关于我, description: about, url: '/about'}
+    - {title: 关于我, description: about, url: '/about'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/index.html'}
 
