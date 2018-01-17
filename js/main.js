@@ -19,9 +19,9 @@ $(document).ready(function() {
     if (window.location.hash && window.location.hash == "#blog") {
         $('.panel-cover').addClass('panel-cover--collapsed');
         $('.main-post-list').removeClass('hidden');
-    }
-
-    if (window.location.pathname.substring(0, 5) == "/tag/") {
+    } else if (window.location.pathname.substring(0, 5) == "/tags/") {
+        $('.panel-cover').addClass('panel-cover--collapsed');
+    } else if (window.location.pathname.substring(0, 9) == "/archive/") {
         $('.panel-cover').addClass('panel-cover--collapsed');
     }
 
@@ -32,7 +32,6 @@ $(document).ready(function() {
                 $('.navigation-wrapper').off('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
             });
             $('.navigation-wrapper').toggleClass('animated bounceInDown animated bounceOutUp');
-
         } else {
             $('.navigation-wrapper').toggleClass('visible animated bounceInDown');
         }

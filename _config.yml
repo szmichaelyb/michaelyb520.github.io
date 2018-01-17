@@ -44,7 +44,7 @@ blog_button:
 nav:
     - {title: 全部, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
-    - {title: 关于我, description: about, url: '/about/index.html'}
+    - {title: 关于我, description: about, url: '/about/'}
     # - {title: 关于我, description: about, url: '/about'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/index.html'}
