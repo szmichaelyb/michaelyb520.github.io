@@ -1,5 +1,4 @@
 @import url(./open_sans.min.css);
-
 @import url(./roboto.min.css);
 
 .animation-text-box p,
@@ -6895,7 +6894,8 @@ body.landing-page {
 .landing-page .navbar-default .navbar-nav>.active>a,.landing-page .navbar-default .navbar-nav>.active>a:hover {
 	background: 0 0;
 	color: #fff;
-	border-top: 6px solid #DEB887
+	border-top: 6px solid #DEB887;
+	/*border-top: 6px solid #13575F*/
 }
 
 .landing-page .navbar-default .navbar-nav>li>a:focus,.landing-page .navbar-default .navbar-nav>li>a:hover {
@@ -6925,6 +6925,7 @@ body.landing-page {
 	display: block;
 	font-size: 14px;
 	background: #DEB887;
+	/*background: #13575F;*/
 	padding: 15px 20px;
 	border-radius: 0 0 5px 5px;
 	font-weight: 700;
@@ -6937,6 +6938,7 @@ body.landing-page {
 
 .landing-page .navbar-scroll.navbar-default .nav li a:hover {
 	color: #DEB887
+	/*background: #13575F;*/
 }
 
 .landing-page .navbar-wrapper .navbar.navbar-scroll {

@@ -9,9 +9,9 @@
     <meta name="description" content="关于我的个人描述" >
     <meta name="keywords" content="michaelyb">
     <meta name="author" content="Michael">
-    <title>关于我</title>
+    <!--<title>关于我</title>-->
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="/assets/images/favicon.ico" />
+    <!--<link rel="icon" type="image/png" href="/assets/images/favicon.ico" />-->
 
     <!-- Third-party CSS -->
     <!-- 未知 -->
@@ -31,6 +31,7 @@
     <!-- 控制首页图片 -->
     <link rel="stylesheet" href="/static/css/style.min.css">
     <!--<link rel="stylesheet" href="/static/css/style_bak.css">-->
+
 
     <!-- Third-party scripts -->
     <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
@@ -54,84 +55,23 @@
     <!-- <script async src="/static/js/count.min.js"></script> -->
 
     <style>
-        .bg_topnav {
-            /*width: 100%;*/
-            /*height: 100%;*/
+        /*.bg_topnav {*/
+            /*!*width: 100%;*!*/
+            /*!*height: 100%;*!*/
             /*width: auto;*/
             /*height: auto;*/
-            /*height: 300px;*/
+            /*!*height: 300px;*!*/
             /*min-height: 300px;*/
             /*background-size:100%;*/
-            /*background-clip: border-box;*/
             /*background:url(/assets/topnav.jpg) no-repeat;*/
-            /*background:url(images/beijing.png);*/
-            overflow:hidden;
-            text-align:center;
-        }
-
-        .bg_topnav img {
-            height:300px;
-            max-width:1440px;
-        }
+            /*!*background:url(images/beijing.png);*!*/
+        /*}*/
 
         .skill_row {
-            /*margin: auto -5px;*/
-            margin: auto;
+            margin: auto -5px;
         }
-
-        /*.myprj_row {*/
-            /*display: table;*/
-            /*width: 100%;*/
-        /*}*/
-
-        /*.myprj_row [class^="col-"] {*/
-            /*display: table-cell;*/
-            /*float: none;*/
-        /*}*/
-
-        /*下面这2段代码，是针对bootstarpsh实现同一行中不同列由于高度不一致无法对其的修正*/
-        .myprj_row {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .myprj_row > [class*='col-'] {
-            display: flex;
-            flex-direction: column;
-        }
-
-        @media (min-width: 1200px) {
-            .skill_row p {
-                /*width: 110%;*/
-                text-align: right;
-                /*width: 10%;*/
-            }
-        }
-        @media (max-width: 1199px) {
-            .bg_topnav img {
-                object-fit:cover;
-                -webkit-transform: translateX(-10%);
-                -ms-transform: translateX(-10%);
-                -moz-transform: translateX(-10%);
-            }
-        }
-        @media (max-width: 800px) {
-            .bg_topnav img {
-                object-fit:cover;
-                -webkit-transform: translateX(-25%);
-                -ms-transform: translateX(-25%);
-                -moz-transform: translateX(-25%);
-            }
-        }
-        @media (max-width: 600px) {
-            .bg_topnav img {
-                object-fit:cover;
-                -webkit-transform: translateX(-40%);
-                -ms-transform: translateX(-40%);
-                -moz-transform: translateX(-40%);
-            }
+        .skill_row p {
+            width: 110%;
         }
     </style>
 
@@ -215,22 +155,9 @@
 <!--<li data-target="#inSlider" data-slide-to="1"></li>-->
 <!--</ol>-->
 
-<!--text-align:center;overflow:hidden;-->
-<!--<div class="bg_topnav" style="height:300px;text-align:center;vertical-align: middle;">-->
-    <!--height="300" width="1440" max-height:100%;max-width:100%;background-clip: border-box;-->
-    <!--<img src="/assets/topnav.jpg" alt="" style="height:300px; max-width:1440px; width:100%;">-->
-    <!--<div style="background-image: url('/assets/topnav.jpg');padding: 0;margin:0 auto; height:300px;max-width:1440px;width:100%;"></div>-->
-<!--</div>-->
-<!--<div class="bg_topnav" style="text-align:center;overflow:hidden;">-->
-    <!--&lt;!&ndash;height="300" width="1440" max-height:100%;max-width:100%;&ndash;&gt;-->
-    <!--<img src="/assets/topnav.jpg" alt="" style="height:300px; max-width:1440px;width:100%;">-->
-<!--</div>-->
-
-<div class="bg_topnav">
-    <img src="/assets/topnav.jpg" alt="/">
+<div class="bg_topnav" style="text-align:center ">
+    <img src="/assets/topnav.jpg" height="300" width="1440" alt="">
 </div>
-
-
 <div class="carousel-inner" role="listbox">
 
     <div class="item active">
@@ -253,47 +180,58 @@
 
 </div>
 
+<!--<a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">-->
+<!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+<!--<span class="sr-only">Previous</span>-->
+<!--</a>-->
+<!--<a class="right carousel-control" href="#inSlider" role="button" data-slide="next">-->
+<!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+<!--<span class="sr-only">Next</span>-->
+<!--</a>-->
+
+<!-- </div> -->
+
 <section id="about-me" class="features" style="margin-top: 0px;">
     <div class="container" id="i18_about_me">
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
                 <h1><span data-i18n="about_me.about_me">关于我</span></h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
             </div>
         </div>
         <div class="row">
             <!-- python -->
-            <!--<div class="col-xs-2 wow fadeInLeft">-->
-                <!--<div class="team-member">-->
-                    <!--<div class="vote-icon">-->
-                        <!--<i class="icon-python"></i>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
+            <div class="col-xs-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-python"></i>
+                    </div>
+                </div>
+            </div>
             <!-- linux -->
-            <!--<div class="col-xs-2 wow fadeInLeft">-->
-                <!--<div class="team-member">-->
-                    <!--<div class="vote-icon">-->
-                        <!--<i class="icon-shell"></i>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
+            <div class="col-xs-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-shell"></i>
+                    </div>
+                </div>
+            </div>
             <!-- avatar -->
-            <!--<div class="col-xs-4">-->
-                <!--<div class="team-member wow zoomIn">-->
-                    <!--<img src="/assets/images/about/michael-header-img.png" height="110" width="110" class="img-responsive img-circle" alt="">-->
-                    <!--<h4>Michael</h4>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--说明：BootStarp将一行分成12等份，如果此头像独占一行的话，可以设置成col-xs-12即可-->
-            <!--上面：其实就是(2+2)+4+4，最后一个4，由于是从左往右挨着排列，所以最后一个控件省略-->
-            <!--当然，也可以用2个控件，即：4+4+4，只创建前面两个，最后一个省略-->
-            <div class="col-xs-12">
+            <div class="col-xs-4">
                 <div class="team-member wow zoomIn">
                     <img src="/assets/images/about/michael-header-img.png" height="110" width="110" class="img-responsive img-circle" alt="">
                     <h4>Michael</h4>
+                    <!-- 社交 -->
+                    <!--<ul class="list-inline social-icon">-->
+                    <!--<li><a href="https://github.com/" target="blank"><i class="fa fa-github"></i></a></li>-->
+                    <!--<li><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></a></i>-->
+                    <!--<li><a href="mailto:"><i class="fa fa-envelope-o"></i></a></li>-->
+                    <!--<li><a href="http://localhost:4000/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>-->
+                    <!--</ul>-->
                 </div>
             </div>
+
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
@@ -301,6 +239,7 @@
             </div>
         </div>
     </div>
+
 </section>
 
 
@@ -361,9 +300,8 @@
                         <div class="vertical-timeline-content wow  rotateInUpLeft ">
                             <h2><span data-i18n="career.college">苏州高博培训机构</span></h2>
                             <p><span data-i18n="career.college_des">经咨询学长，综合考虑进入这家培训机构学习，虽然此间一波三折，不过最终还是加入了该机构iOS学习班，培训期间学习刻苦，因表现良好进入实训基地参与正式项目，培训结束前已收到上海公司offer。(经卧底调查，当年该培训机构教学条件良好，教学方式效果明显，比某上市培训机构靠谱)</span></p>
-                            <span class="vertical-date">
-                                <span data-i18n="career.college_date"> 2012.07-2013.03 </span><br/><span data-i18n="career.college_job" style="color:#DEB887">学生</span>
-                            </span>
+                            <span class="vertical-date"><span data-i18n="career.college_date"> 2012.07-2013.03 </span>
+                    <br/> <span data-i18n="career.college_job" style="color:#DEB887">学生</span> </span>
                         </div>
                     </div>
 
@@ -374,7 +312,8 @@
                         <div class="vertical-timeline-content wow  rotateInUpRight ">
                             <h2><span data-i18n="career.college">大学</span></h2>
                             <p><span data-i18n="career.college_des">大学求学</span></p>
-                            <span class="vertical-date"><span data-i18n="career.college_date"> 2009.09-2013.06 </span><br/><span data-i18n="career.college_job" style="color:#DEB887">学生</span></span>
+                            <span class="vertical-date"><span data-i18n="career.college_date"> 2009.09-2013.06 </span>
+                        <br/> <span data-i18n="career.college_job" style="color:#DEB887">学生</span></span>
                         </div>
                     </div>
 
@@ -409,100 +348,8 @@
         </div>
 
         <div class="row features-block skill_row">
-            <!--<div class="row">-->
-                <!--<div class="col-lg-1 col-lg-offset-2 wow fadeInLeft">-->
-                    <!--<p>Objective-C</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-7 wow fadeInRight">-->
-                    <!--<div class="progress progress-bar-default">-->
-                        <!--<div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<br>-->
-
-            <!--<div class="row">-->
-                <!--<div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">-->
-                    <!--<p>C</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-7 wow fadeInLeft ">-->
-                    <!--<div class="progress progress-bar-default">-->
-                        <!--<div style="width: 60%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<br>-->
-
-            <!--<div class="row">-->
-                <!--<div class="col-lg-1 col-lg-offset-2 wow fadeInLeft ">-->
-                    <!--<p>Swift</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-7 wow fadeInRight ">-->
-                    <!--<div class="progress progress-bar-default">-->
-                        <!--<div style="width: 75%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<br>-->
-
-            <!--<div class="row">-->
-                <!--<div class="col-lg-1 col-lg-offset-2 wow fadeInRight">-->
-                    <!--<p>Java</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-7 wow fadeInLeft">-->
-                    <!--<div class="progress progress-bar-default">-->
-                        <!--<div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<br>-->
-
-            <!--<div class="row">-->
-                <!--<div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">-->
-                    <!--<p>RN</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-7 wow fadeInLeft">-->
-                    <!--<div class="progress progress-bar-default">-->
-                        <!--<div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<br>-->
-
-            <!--<div class="row">-->
-                <!--<div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">-->
-                    <!--<p>Vue</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-7 wow fadeInLeft">-->
-                    <!--<div class="progress progress-bar-default">-->
-                        <!--<div style="width: 64%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="64" role="progressbar" class="progress-bar">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<br>-->
-
-            <!--<div class="row">-->
-                <!--<div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">-->
-                    <!--<p>算法</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-7 wow fadeInLeft">-->
-                    <!--<div class="progress progress-bar-default">-->
-                        <!--<div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<br>-->
-
-            <!-- 修改后 -->
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 wow fadeInLeft">
+                <div class="col-lg-1 col-lg-offset-2 wow fadeInLeft">
                     <p>Objective-C</p>
                 </div>
                 <div class="col-lg-7 wow fadeInRight">
@@ -515,7 +362,7 @@
             <br>
 
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 wow fadeInRight ">
+                <div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">
                     <p>C</p>
                 </div>
                 <div class="col-lg-7 wow fadeInLeft ">
@@ -528,7 +375,7 @@
             <br>
 
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 wow fadeInLeft ">
+                <div class="col-lg-1 col-lg-offset-2 wow fadeInLeft ">
                     <p>Swift</p>
                 </div>
                 <div class="col-lg-7 wow fadeInRight ">
@@ -541,7 +388,7 @@
             <br>
 
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 wow fadeInRight">
+                <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
                     <p>Java</p>
                 </div>
                 <div class="col-lg-7 wow fadeInLeft">
@@ -554,7 +401,7 @@
             <br>
 
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 wow fadeInRight ">
+                <div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">
                     <p>RN</p>
                 </div>
                 <div class="col-lg-7 wow fadeInLeft">
@@ -567,7 +414,7 @@
             <br>
 
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 wow fadeInRight ">
+                <div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">
                     <p>Vue</p>
                 </div>
                 <div class="col-lg-7 wow fadeInLeft">
@@ -580,7 +427,7 @@
             <br>
 
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 wow fadeInRight ">
+                <div class="col-lg-1 col-lg-offset-2 wow fadeInRight ">
                     <p>算法</p>
                 </div>
                 <div class="col-lg-7 wow fadeInLeft">
@@ -597,6 +444,7 @@
 
 </section>
 
+
 <section id="projects" class="features  gray-section  project" style="margin-top: 0px;">
     <div class="container" id="i18_projects">
 
@@ -607,9 +455,9 @@
             </div>
         </div>
 
-        <div class="row myprj_row">
+        <div class="row">
 
-            <div class="col-sm-6 wow fadeInLeft">
+            <div class="col-sm-6 wow  fadeInLeft ">
                 <div class="team-member">
                     <img src="/assets/images/about/fruitday.jpg" class="img-responsive img-circle img-small" alt="">
                     <h4><a target="blank"><span class="navy">天天果园</span></a></h4>
@@ -617,15 +465,15 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 wow fadeInRight">
+            <div class="col-sm-6 wow  fadeInRight ">
                 <div class="team-member">
                     <img src="/assets/images/about/pizzahut.jpg" class="img-responsive img-circle img-small" alt="">
                     <h4><a target="blank"><span class="navy">必胜客</span></a></h4>
                     <p><span data-i18n="projects.jalpc">百盛集团旗下美食App，美食佳饮排行榜前20，负责必胜客多个版本更新迭代。<br> </br></span></p>
                 </div>
             </div>
-            <!--<br/>-->
-            <div class="col-sm-6 wow fadeInLeft">
+
+            <div class="col-sm-6 wow fadeInLeft ">
                 <div class="team-member">
                     <img src="/assets/images/about/uniqlo.jpg" class="img-responsive img-circle img-small" alt="">
                     <h4><a target="blank"><span class="navy">优衣库</span></a></h4>
@@ -634,7 +482,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 wow fadeInRight">
+            <div class="col-sm-6 wow  fadeInRight ">
                 <div class="team-member">
                     <img src="/assets/images/about/ios.png" class="img-responsive img-circle img-small" alt="">
                     <h4><a target="blank"><span class="navy">其他项目</span></a></h4>
@@ -649,7 +497,7 @@
 
 </section>
 
-<section id="blog" class="features testimonials navy-section" style="margin-top: 0px;">
+<section id="blog" class="features  testimonials navy-section" style="margin-top: 0px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
