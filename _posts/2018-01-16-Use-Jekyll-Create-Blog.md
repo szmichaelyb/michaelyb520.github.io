@@ -3,6 +3,7 @@ layout: post
 title: 使用Jekyll搭建自己的博客-全教程
 author: Michael
 date: 2018-01-16 11:50:11.000000000 +08:00
+Categories: 博客建设
 tags: 博客建设
 ---
 
@@ -196,3 +197,5 @@ $ git commit -m "提交jekyll默认页面"
 # 线上的站点是部署在master下面的
 $ git push origin master
 ```
+
+

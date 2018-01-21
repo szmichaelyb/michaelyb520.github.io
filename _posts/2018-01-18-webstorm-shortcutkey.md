@@ -1,22 +1,22 @@
 ---
 layout: page
-title: WebStrom常用快捷键
+title: WebStorm常用快捷键
 author: Michael
 Date: 2018-01-18 11:54:00 +8000
+Categories: Web前端
 tags: 前端工具
 ---
 
 > 提高代码编写效率，离不开快捷键的使用，Webstorm拥有丰富的代码快速编辑功能，你可以自由配置功能快捷键。
 
-## 快捷键配置
+# 快捷键配置
 
-点击“File”-> “settings”
-Webstorm预置了其他编辑器的快捷键配置，可以点击配置。
+点击`File -> settings`，Webstorm预置了其他编辑器的快捷键配置，可以点击配置。
 
-## 默认配置-Eclipse的常用快捷键对照表
+# 默认配置-Eclipse的常用快捷键对照表
 ### 查找/代替
 
-| WebStrom快捷键 | Eclipse快捷键 | 说明 |
+| WebStorm快捷键 | Eclipse快捷键 | 说明 |
 | --- | --- | --- |
 | Ctrl + Shift + N | Ctrl + Shift + R | 通过文件名快速查找工程内的文件（必记） |
 | Ctrl + Shift + alt + N | Ctrl + Shift + Alt + N | 通过一个字符快速查找位置（必记） |
@@ -28,6 +28,7 @@ Webstorm预置了其他编辑器的快捷键配置，可以点击配置。
 | Ctrl + Shift + F | Ctrl + H | 指定目录内代码批量查找 |
 
 ### 界面操作
+
 
 | WebStorm快捷键 | Eclipse快捷键 | 说明 |
 | --- | --- | --- |
@@ -42,6 +43,7 @@ Webstorm预置了其他编辑器的快捷键配置，可以点击配置。
 
 ### 代码编辑
 
+
 | WebStorm快捷键 | Eclipse快捷键 | 说明 |
 | --- | --- | --- |
 | Ctrl + D | Ctrl + Shift + ↑ | 复制当前行 |
@@ -54,6 +56,7 @@ Webstorm预置了其他编辑器的快捷键配置，可以点击配置。
 | Shift + Enter | Shift + Enter | 重新开始一行（无论光标在哪个位置） |
 
 ### 导航
+
 
 | WebStorm快捷键 | Eclipse快捷键 | 说明 |
 | --- | --- | --- |
