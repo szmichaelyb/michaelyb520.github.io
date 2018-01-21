@@ -90,7 +90,20 @@
         .myprj_row > [class*='col-'] {
             display: flex;
             flex-direction: column;
+            /*height: 500px;*/
+            /*background-color: #00E466;*/
         }
+        /*说明：上面代码，不支持苹果Safari浏览器，因此改用下面方式（适合无边框场景）*/
+        /**Bootstrap栅格系统中同行div高度不一致的解决方法。通过div底部的margin和padding实现。*/
+        /*缺点：下边框无法完整显示，建议在无边框情况下使用*/
+
+        /*.myprj_row {*/
+            /*overflow: hidden;*/
+        /*}*/
+        /*.myprj_row [class*='col-'] {*/
+            /*margin-bottom: -99999px;*/
+            /*padding-bottom: 99999px;*/
+        /*}*/
 
         @media (min-width: 1200px) {
             .skill_row p {
@@ -287,7 +300,7 @@
                         <div class="vertical-timeline-content wow  rotateInUpLeft ">
                             <h2><span data-i18n="career.college">武汉群翔软件有限公司</span></h2>
                             <p><span data-i18n="career.college_des">武汉群翔软件有限公司是一家专业企业管理软件及电子商务应用解决方案供应商。员工总数超1000人，涉足各个行业，包括服装、IT、通讯、医药、电子产品、家具、珠宝、建材等。</span></p>
-                            <span class="vertical-date"><span data-i18n="career.college_date"> 2012.07-2013.10 </span><br/><span data-i18n="career.college_job" style="color:#DEB887">Java</span></span>
+                            <span class="vertical-date"><span data-i18n="career.college_date"> 2012.07-2013.10 </span><br/><span data-i18n="career.college_job" style="color:#DEB887">Java软件开发工程师</span></span>
                         </div>
                     </div>
 
@@ -309,7 +322,7 @@
                         <div class="vertical-timeline-content wow  rotateInUpLeft ">
                             <h2><span data-i18n="career.college">乡村放牛郎 • 湖北</span></h2>
                             <p><span data-i18n="career.college_des">武汉，简称汉，别称江城，湖北省省会，中部六省唯一的副省级市中国中部地区的中心城市，全国重要的工业基地、科教基地和综合交通枢纽，也是华中地区教育重镇。</span></p>
-                            <span class="vertical-date"><span data-i18n="career.college_date"> 1989.07-2008.07 </span><br/><span data-i18n="career.college_job" style="color:#DEB887">修仙进行时</span> </span>
+                            <span class="vertical-date"><span data-i18n="career.college_date"> ~~-2008.07 </span><br/><span data-i18n="career.college_job" style="color:#DEB887">修仙进行时</span> </span>
                         </div>
                     </div>
 
@@ -457,6 +470,7 @@
                     <p><span data-i18n="projects.rsser">曾经在外包公司做过很多不知名项目，包括电商、蓝牙通讯、地图定位等类型<br/></span></p>
                 </div>
             </div>
+            <!--<div class="clearfix"></div>-->
         </div>
     </div>
     <br>
