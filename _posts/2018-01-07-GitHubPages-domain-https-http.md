@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  开启 Github Pages 自定义域名 HTTPS 和 HTTP/2 支持​
 author: Michael
 Date: 2018-01-07 14:34:00 +8000

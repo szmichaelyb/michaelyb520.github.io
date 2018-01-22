@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  关于CloudFlare一些你不知道的事
 author: Michael
 Date: 2018-01-08 14:54:00 +8000

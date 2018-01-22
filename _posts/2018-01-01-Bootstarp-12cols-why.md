@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 为什么BootStrap要默认12列
 author: Michael
 Date: 2018-01-01 10:54:00 +8000

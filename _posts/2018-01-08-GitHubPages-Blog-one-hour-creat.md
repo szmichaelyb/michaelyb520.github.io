@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  Github Pages + Jekyll 独立博客一小时快速搭建&上线指南
 author: Michael
 Date: 2018-01-08 16:54:00 +8000

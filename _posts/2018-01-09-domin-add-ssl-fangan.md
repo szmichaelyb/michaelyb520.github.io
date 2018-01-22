@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  为自定义域名的GitHub Pages添加SSL 完整方案
 author: Michael
 Date: 2018-01-09 14:34:00 +8000

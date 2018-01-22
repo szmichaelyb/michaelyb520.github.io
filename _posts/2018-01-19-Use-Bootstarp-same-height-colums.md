@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 用 Bootstrap 3 制作高度相同的 div (column)
 author: Michael
 Date: 2018-01-01 10:54:00 +8000

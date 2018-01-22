@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  搭建Git服务器
 author: Michael
 Date: 2018-01-09 14:34:00 +8000

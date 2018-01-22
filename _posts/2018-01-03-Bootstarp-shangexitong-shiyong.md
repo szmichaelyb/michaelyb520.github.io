@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  Bootstrap栅格系统使用方法
 author: Michael
 Date: 2018-01-03 10:54:00 +8000

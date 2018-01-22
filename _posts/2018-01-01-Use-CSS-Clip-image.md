@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 用一行 CSS 居中并裁剪图片
 author: Michael
 Date: 2018-01-01 09:54:00 +8000

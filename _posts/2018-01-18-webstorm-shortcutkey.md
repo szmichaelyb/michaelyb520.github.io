@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: WebStorm常用快捷键
 author: Michael
 Date: 2018-01-18 11:54:00 +8000

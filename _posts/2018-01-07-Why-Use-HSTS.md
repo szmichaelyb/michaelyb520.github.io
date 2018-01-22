@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  为什么我们要使用HTTP Strict Transport Security
 author: Michael
 Date: 2018-01-07 12:54:00 +8000
