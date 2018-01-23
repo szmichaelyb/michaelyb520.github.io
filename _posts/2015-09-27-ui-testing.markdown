@@ -3,9 +3,11 @@ layout: post
 title: WWDC15 Session笔记 - Xcode 7 UI 测试初窥
 date: 2015-09-27 20:58:47.000000000 +09:00
 author: Michael
+Categories: 能工巧匠集
 tags: 能工巧匠集
 ---
-![](/assets/images/2015/ui-testing-title.png)
+
+![ui-testing-title](http://upload-images.jianshu.io/upload_images/563374-cbf47542eb8c6957.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 Unit Test 在 iOS 开发中已经有足够多的讨论了。Objective-C 时代除了 Xcode 集成的 XCTest 以外，还有很多的测试相关的工具链可以使用，比如专注于提供 Mock 和 Stub 的 [OCMock](http://ocmock.org)，使用行为驱动测试的 [Kiwi](https://github.com/kiwi-bdd/Kiwi) 或者 [Specta](https://github.com/specta/specta) 等等。在 Swift 中，我们可以继续使用 XCTest 来进行测试，而 Swift 的 mock 和 stub 的处理，我们甚至不需要再借助于第三方框架，而使用 Swift 自身可以在方法中内嵌类型的特性来完成。关于这方面的内容，可以参看下 NSHipster [这篇文章](http://nshipster.com/xctestcase/)里关于 Mocking in Swift 部分的内容。
 
@@ -242,3 +244,5 @@ func testSwitchAndCount() {
 UI Testing 在易用性上比 KIF 这样的框架要有所进步，随着 UI Testing 的推出，Apple 也将原来的 UI Automation 一系列内容标记为弃用。这意味着 UI Testing 至少在今后一段时间内将会是 iOS 开发中的首选工具。但是我们也应该看到，基于 Accessibility 的测试方式有时候并不是很直接。在这个限制下，我们只能得到 UI 的代理对象，而不是 UI 元素本身，这让我们无法得到关于 UI 元素更多的信息 (比如直接获取 UI 元素中的内容，或者与 ViewController 中的相关的值)，现在的 UI Testing 在很大程度上还停留在比较简易的阶段。
 
 但是相比使用 UIAutomation 在 Instruments 中用 JavaScript 与 app 交互，我们现在可以用 Swift 或者 Objective-C 直接在 Xcode 里进行 UI 测试了，这使得测试时可以方便地进行和被调试。Xcode 7.0 中的 UI Testing 作为第一个版本，还有不少限制和 bug，使用起来也有不少“小技巧”，很多时候可能并没有像单元测试那样直接。但即便如此，使用 UI Testing 来作为人工检查的替代和防止开发过程中 bug 引入还是很有意义的，相比起开发人员，也许 QA 人员从 UI 录制方面收益更多。如果 QA 职位的员工可以掌握一些基本的 UI Testing 内容的话，应该可以极大地缩短他们的工作时间和压力。而且相信 Apple 也会不断改进和迭代 UI Testing，并以此驱动 app 质量的提升，所以尽早掌握这一技术还是十分必要的。
+
+

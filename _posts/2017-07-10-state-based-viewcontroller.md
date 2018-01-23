@@ -24,7 +24,7 @@ View Controller 向来是 MVC (Model-View-View Controller) 中最让人头疼的
 
 <center>
 <video width="272" height="480" controls>
-  <source src="/assets/images/2017/todo-video.mp4" type="video/mp4">
+    <source src="/assets/images/2017/todo-video.mp4" type="video/mp4">
 </video>
 </center>
 

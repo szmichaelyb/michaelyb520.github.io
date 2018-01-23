@@ -3,6 +3,7 @@ layout: post
 title: 开发者所需要知道的 iOS 9 SDK 新特性
 date: 2015-06-11 10:24:16.000000000 +09:00
 aurhor: Michael
+Categories: 能工巧匠集
 tags: 能工巧匠集
 ---
 
