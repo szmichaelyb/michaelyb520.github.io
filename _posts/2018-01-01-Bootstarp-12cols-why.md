@@ -4,10 +4,10 @@ title: 为什么BootStrap要默认12列
 author: Michael
 Date: 2018-01-01 10:54:00 +8000
 Categories: Web前端
-tags: Web前端-BootStarp
+tags: Web前端-BootStrap
 ---
 
-今天被问了一个问题：<font color='red'>**有没有想过为什么Bootstrap要默认是12列？**</font>
+今天被问了一个问题：<span style="font-weight:bold;color:red;">有没有想过为什么Bootstrap要默认是12列？</span>
 呃，好吧，用了Bootstrap一段时间，的确没想过为什么要默认是12列，隐隐约约觉得是因为布局比较方便，常见的分2块，3块，4块，都可以方便分完。
 
 既然有假设，那还是要求证一下。

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bootstrap栅格系统使用方法
+title:  ReactNative实现二维码扫描
 author: Michael
 Date: 2018-01-08 10:54:00 +8000
 Categories: 跨平台开发
@@ -13,7 +13,7 @@ tags: 跨平台开发-RN
 
 首先当然是 **google** 一下看看是否有现成的 **React Native** 库支持二维码，感谢最大的同性交友网站 **GitHub**，还真有两个：`react-native-camera` 和 `react-native-barcodescanner` 。
 
-不过，各自都有一点问题，`react-native-camera` 主要是用来调用摄像头的，**Android / iOS** 都可以用，但是识别条形码的功能只有 **iOS** 有，而 `react-native-barcodescanner` 直接只支持 **Android**。于是为了方便，有人把这两个库搞到一起，弄了个 `react-native-barcode-scanner-universal` 。里面代码也比较简单，就是利用 **React Native** 根据不同平台会去读 <font color='red'> **xxx.ios.js** </font>或者<font color='red'> **xxx.android.js** </font>的原理，写一个公共的<font color='red'> **index.js** </font>然后分别调用不同平台的库。
+不过，各自都有一点问题，`react-native-camera` 主要是用来调用摄像头的，**Android / iOS** 都可以用，但是识别条形码的功能只有 **iOS** 有，而 `react-native-barcodescanner` 直接只支持 **Android**。于是为了方便，有人把这两个库搞到一起，弄了个 `react-native-barcode-scanner-universal` 。里面代码也比较简单，就是利用 **React Native** 根据不同平台会去读 <span style="font-weight:bold;color:red;"> xxx.ios.js </span>或者<span style="font-weight:bold;color:red;"> xxx.android.js </span>的原理，写一个公共的<span style="font-weight:bold;color:red;"> index.js </span>然后分别调用不同平台的库。
 
 
 ```react
@@ -169,5 +169,5 @@ var styles = StyleSheet.create({
 - 把该加的权限加号，虽然这里是用 iOS 做例子，可想而知，Android 一样要在 Gradle 文件里面弄一波权限；
 - 了解原生开发很重要
 
-**React Native** 的哲学是<font color='red'> **Learn once, write anywhere**</font>，实际使用下来，感觉却是<font color='red'> **Learn once, and learn others**</font>，也就是常说的<font color='red'>**『一专多长』**</font>。 既要学习 **React Native** 本身的内容，也要学习 **Android / iOS** 的知识，不说了，赶快去亚马逊上买本 OC 的书压压惊。
+**React Native** 的哲学是<span style="font-weight:bold;color:red;"> Learn once, write anywhere</span>，实际使用下来，感觉却是<span style="font-weight:bold;color:red;"> Learn once, and learn others</span>，也就是常说的<span style="font-weight:bold;color:red;">『一专多长』</span>。 既要学习 **React Native** 本身的内容，也要学习 **Android / iOS** 的知识，不说了，赶快去亚马逊上买本 OC 的书压压惊。
 

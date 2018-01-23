@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 用 Bootstrap 3 制作高度相同的 div (column)
+title: 用Bootstrap 3 制作高度相同的 div (column)
 author: Michael
 Date: 2018-01-01 10:54:00 +8000
 Categories: Web前端
@@ -163,7 +163,7 @@ h2 {
 }
 ```
 
-正常情況下，<font color='red'>**Bootstrap** </font>一行最多容纳 `12 columns`，但如果使用`display: flex`，同一個 **row** 的 `col-*` 总数超過了 12 ，他們一样会维持在同一行內，宽度也会自动均分。这是除了浏览器相容外，还需要特別注意的一件事。
+正常情況下，<span style="font-weight:bold;color:red;">Bootstrap </span>一行最多容纳 `12 columns`，但如果使用`display: flex`，同一個 **row** 的 `col-*` 总数超過了 12 ，他們一样会维持在同一行內，宽度也会自动均分。这是除了浏览器相容外，还需要特別注意的一件事。
 
 ## 使用 table 让 column 高度相同
 
