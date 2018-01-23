@@ -3897,6 +3897,12 @@ table.table-mail tr td {
 	background-color: #fff
 }
 
+/* 个人经历 */
+.reusme_job {
+	color: #DEB887;
+	/*color: rgba(21, 111, 120, 1.0);*/
+}
+
 .navy-bg {
 	background-color: #DEB887;
 	color: #fff

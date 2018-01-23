@@ -3897,6 +3897,12 @@ table.table-mail tr td {
 	background-color: #fff
 }
 
+/* 个人经历 */
+.reusme_job {
+	/*color: #DEB887;*/
+	color: rgba(21, 111, 120, 1.0);
+}
+
 .navy-bg {
 	/*background-color: #DEB887;*/
 	background-color: rgba(21, 111, 120, 1.0);
@@ -6918,7 +6924,8 @@ body.landing-page {
 }
 
 .landing-page .navbar-default .navbar-brand:focus,.landing-page .navbar-default .navbar-brand:hover {
-	background: #8B5A2B;
+	/*background: #8B5A2B;*/
+	background: darkgreen;
 	color: #fff
 }
 
