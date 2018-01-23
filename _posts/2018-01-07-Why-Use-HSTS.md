@@ -7,7 +7,7 @@ Categories: 博客建设
 tags: 博客建设
 ---
 
-> <font color='green'>**HTTP Strict Transport Security (通常简称为HSTS) 是一个安全功能，它告诉浏览器只能通过HTTPS访问当前资源, 禁止HTTP方式。**</font>
+> <font color='green'>HTTP Strict Transport Security (通常简称为HSTS) 是一个安全功能，它告诉浏览器只能通过HTTPS访问当前资源, 禁止HTTP方式。</font>
 
 ## 一. Freebuf百科：什么是Strict-Transport-Security
 
