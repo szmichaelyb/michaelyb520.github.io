@@ -10,7 +10,7 @@ tags: 能工巧匠集
 
 <script async class="speakerdeck-embed" data-id="809c2dfa8e5f46cf98e92898079c943a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-<br>
+<br/>
 
 虽然我的工作是程序员，但是最近半年其实我的主要干的事儿是养了一个小孩。
 所以这半年来可以说没有积累到什么技术，反而是积累了不少养小孩的心得。
