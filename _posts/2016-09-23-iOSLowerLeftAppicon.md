@@ -3,6 +3,7 @@ layout: post
 title: "iOS设备左下角出现Appicon"
 date: 2016-09-23 00:40:39.000000000 +09:00
 author: Michael
+categories: iOS
 tags: iOS   
 ---
 
@@ -40,6 +41,6 @@ tags: iOS
 [为什么 iOS 8 锁屏界面的左下角经常会出现某个应用的小图标？](https://www.zhihu.com/question/26653964)    
 [关于 IOS8 锁屏左下方出现的 APP ICON](https://www.v2ex.com/t/142320) 
 
-<br>
+<br/>
 
-转载请注明：[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/09/iOSLowerLeftAppicon/)     
+转载请注明：[Michael的博客]({{site.url}}) » [点击阅读原文]({{site.url}}/2016/09/iOSLowerLeftAppicon/)     

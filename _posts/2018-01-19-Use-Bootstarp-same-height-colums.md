@@ -2,8 +2,8 @@
 layout: post
 title: 用Bootstrap 3 制作高度相同的 div (column)
 author: Michael
-Date: 2018-01-01 10:54:00 +8000
-Categories: Web前端
+date: 2018-01-01 10:54:00 +8000
+categories: Web前端
 tags: Web前端-BootStarp
 ---
 

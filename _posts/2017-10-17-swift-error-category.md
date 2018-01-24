@@ -3,6 +3,7 @@ layout: post
 title: "关于 Swift Error 的分类"
 author: Michael
 date: 2017-10-17 12:15:00.000000000 +09:00
+categories: 能工巧匠集
 tags: 能工巧匠集
 ---
 

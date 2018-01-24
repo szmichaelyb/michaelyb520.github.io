@@ -3,6 +3,7 @@ layout: post
 title: iOS开发中的小问题记录
 author: Michael
 date: 2016-12-02 22:15:24.000000000 +09:00
+categories: iOS
 tags: iOS
 ---
 

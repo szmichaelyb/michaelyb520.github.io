@@ -3,6 +3,7 @@ layout: post
 title: "使用邮件来进行信息管理，顺便介绍最近写的一个小 app - Mail Me"
 date: 2017-02-22 10:05:00.000000000 +09:00
 author: Michael
+categoires: 能工巧匠集
 tags: 能工巧匠集
 ---
 

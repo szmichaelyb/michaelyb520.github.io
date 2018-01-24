@@ -3,6 +3,7 @@ layout: post
 title: "Swift 并行编程现状和展望 - async/await 和参与者模式"
 author: Michael
 date: 2016-12-20 12:53:11.000000000 +09:00
+categories: 能工巧匠集
 tags: 能工巧匠集
 ---
 

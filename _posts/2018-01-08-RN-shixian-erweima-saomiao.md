@@ -2,8 +2,8 @@
 layout: post
 title:  ReactNative实现二维码扫描
 author: Michael
-Date: 2018-01-08 10:54:00 +8000
-Categories: 跨平台开发
+date: 2018-01-08 10:54:00 +8000
+categories: 跨平台开发
 tags: 跨平台开发-RN
 ---
 

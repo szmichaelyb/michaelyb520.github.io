@@ -3,7 +3,7 @@ title: 算法-冒泡排序
 layout: post
 author: Michael
 date: '2016-11-15 10:28:24 +0800'
-categories: Blog
+Categories: Blog
 tags: 算法设计
 ---
 >貌似是程序员基础，我一个高级开发竟然只会冒泡（羞耻ing...）

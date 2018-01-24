@@ -3,6 +3,7 @@ layout: post
 title: Wifi 定位原理及 iOS Wifi 列表获取
 author: Michael
 date: 2017-01-03 22:15:24.000000000 +09:00
+categories: iOS
 tags: iOS
 ---
 
@@ -153,6 +154,7 @@ NEHotspotNetwork 里有如下信息：
 参考资源：[NEHotspotHelper NetworkExtension API iOS9.0](http://stackoverflow.com/questions/31704292/nehotspothelper-networkextension-api-ios9-0)
 
 <br>
-转载请注明：[潘柏信的博客](http://baixin) » [Wifi 定位原理及 iOS Wifi 列表获取](http://baixin.io/2017/01/iOS_Wifilist/)  
+
+转载请注明：[Michael的博客]({{site.url}}) » [Wifi 定位原理及 iOS Wifi 列表获取]({{site.url}}/2017/01/iOS_Wifilist/)  
 
 

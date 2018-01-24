@@ -2,8 +2,8 @@
 layout: post
 title: 为什么BootStrap要默认12列
 author: Michael
-Date: 2018-01-01 10:54:00 +8000
-Categories: Web前端
+date: 2018-01-01 10:54:00 +8000
+categories: Web前端
 tags: Web前端-BootStrap
 ---
 

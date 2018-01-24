@@ -2,8 +2,8 @@
 layout: post
 title:  搭建Git服务器
 author: Michael
-Date: 2018-01-09 14:34:00 +8000
-Categories: 项目管理
+date: 2018-01-09 14:34:00 +8000
+categories: 项目管理
 tags: 项目管理-SVN与GIT
 ---
 

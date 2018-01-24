@@ -2,8 +2,8 @@
 layout: post
 title: WebStorm常用快捷键
 author: Michael
-Date: 2018-01-18 11:54:00 +8000
-Categories: Web前端
+date: 2018-01-18 11:54:00 +8000
+categories: Web前端
 tags: 前端工具
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 关于网站访问次数统计 - 卜算子统计
 author: Michael
 date: 2018-01-16 16:50:11.000000000 +08:00
-Categorie: 博客建设
+categorie: 博客建设
 tags: 博客建设
 ---
 

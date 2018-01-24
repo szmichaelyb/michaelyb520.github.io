@@ -3,7 +3,7 @@ layout: post
 title: Scheme 初步
 date: 2015-05-08 12:59:45.000000000 +09:00
 author: Michael
-Categories: 能工巧匠集
+categories: 能工巧匠集
 tags: 南箕北斗集
 ---
 之前定了[每年学习一门语言](http://onevcat.com/2014/09/bye-kayac/)的目标，自然不能轻言放弃。今年目标：简单掌握 Scheme。

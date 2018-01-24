@@ -2,8 +2,8 @@
 layout: post
 title:  Bootstrap栅格系统使用方法
 author: Michael
-Date: 2018-01-03 10:54:00 +8000
-Categories: Web前端
+cate: 2018-01-03 10:54:00 +8000
+categories: Web前端
 tags: Web前端-BootStarp
 ---
 

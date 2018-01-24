@@ -3,6 +3,7 @@ layout: post
 title: "所有权宣言 - Swift 官方文章 Ownership Manifesto 译文评注版"
 author: Michael
 date: 2017-02-27 15:40:00.000000000 +09:00
+categories: 能工巧匠集
 tags: 能工巧匠集
 ---
 

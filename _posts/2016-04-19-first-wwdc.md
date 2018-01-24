@@ -3,6 +3,7 @@ layout: post
 title: "写给初次参加 WWDC 的开发者的简明攻略"
 date: 2016-04-19 21:10:11.000000000 +09:00
 author: Michael
+categories: 南箕北斗集
 tags: 南箕北斗集
 ---
 
