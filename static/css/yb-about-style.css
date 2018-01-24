@@ -7238,8 +7238,9 @@ body.landing-page {
     padding-top: 80px;
     padding-bottom: 90px;
     /*background-color: #DEB887;*/
-    background-color: rgba(21, 111, 120, 0.6);
-    background-image: url(../img/landing/avatar_all.png)
+    /*background-color: rgba(21, 111, 120, 0.6);*/
+    background-color: rgba(21, 111, 120, 0.9);
+    background-image: url(../img/landing/avatar_all.png);
 }
 
 .landing-page .big-icon {
@@ -7255,7 +7256,7 @@ body.landing-page {
     background-image: url(../img/landing/word_map.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    margin-top: 60px
+    margin-top: 60px;
 }
 
 .landing-page section.timeline {
