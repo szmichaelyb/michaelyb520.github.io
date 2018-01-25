@@ -12,7 +12,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  /*font-size: 100%;*/
+  /*font: inherit;*/
   font: inherit;
   vertical-align: baseline; }
 
@@ -30,12 +31,15 @@ blockquote, q {
   quotes: none; }
 
 blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
+    /*content: '';*/
+    /*content: none;*/
+    content: none;
+}
 
 q:before, q:after {
-  content: '';
-  content: none; }
+    /*content: '';*/
+    /*content: none;*/
+    content: none; }
 
 table {
   border-collapse: collapse;
@@ -588,8 +592,10 @@ nav {
   opacity: 1; }
 
 .navigation--social a {
-  border: 0px;
-  padding: 6px 8px 6px 9px; }
+    /*border: 0px;*/
+    border-width: 0;
+    padding: 6px 8px 6px 9px;
+}
 .navigation--social a .label {
   display: none; }
 .navigation--social a .icon {
@@ -612,7 +618,7 @@ nav {
   margin-left: 1em; }
 
 i {
-  font-family: 'entypo';
+  font-family: 'entypo',sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 18px; }
@@ -621,7 +627,7 @@ i {
   font-size: 22px; }
 
 .icon-social {
-  font-family: 'entypo-social';
+  font-family: 'entypo-social',sans-serif;
   font-size: 22px;
   display: block;
   position: relative; }
