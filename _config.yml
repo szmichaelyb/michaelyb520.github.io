@@ -8,9 +8,9 @@ welcome_message: H5 / Java / Objc / Swift / Vue / RN
 description: 您好，我是Michael，欢迎来到我的个人家园。<br/>代码搬运工，目前就职于XX证券，努力修行中。
 creator: <a href="http://michaelyb.top">@michaelyb</a>
 
-url: "http://www.michaelyb.top"
+url: "http://michaelyb.top"
 
-#enforce_ssl: "michaelyb.top"
+enforce_ssl: "michaelyb.top"
 #enforce_ssl: "michaelyb.com"
 
 permalink: /:year/:month/:title/
@@ -66,12 +66,12 @@ excerpt_separator: <!--excerpt-->
 
 # Comment
 comment:
-    # disqus: xietao3
-    # duoshuo: xietao3
+    # disqus: Michael
+    # duoshuo: Michael
     livere: Michael
     # libili: Michael
     # livere: Michael  来必力
-    
+
 # Social
 social:
     #weibo: 爱就往死了爱
