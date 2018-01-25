@@ -19,11 +19,11 @@ var cbpAnimatedHeader = (function() {
     var changeHeaderOn = 200, scrollDebounce = 250;
 
     function scrollPage() {
-      $('.navbar-default').toggleClass('navbar-scroll', scrollY() >= changeHeaderOn);
+        $('.navbar-default').toggleClass('navbar-scroll', scrollY() >= changeHeaderOn);
     }
 
     function scrollY() {
-      return window.pageYOffset || document.documentElement.scrollTop;
+        return window.pageYOffset || document.documentElement.scrollTop;
     }
 
     window.addEventListener('scroll', function() { setTimeout(scrollPage, scrollDebounce); }, false);
