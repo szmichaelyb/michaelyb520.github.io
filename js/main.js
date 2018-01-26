@@ -20,8 +20,7 @@ $(document).ready(function() {
             // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
         } else {
             panel_cover.css('max-width', currentWidth);
-            panel_cover.animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function () {
-            });
+            panel_cover.animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function() {});
             // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
         }
     });
@@ -29,11 +28,15 @@ $(document).ready(function() {
     if (window.location.hash && window.location.hash === "#blog") {
         panel_cover.addClass('panel-cover--collapsed');
         main_post_list.removeClass('hidden');
-    } else if (window.location.pathname.substring(0, 5) === "/tags/") {
-        panel_cover.addClass('panel-cover--collapsed');
-    } else if (window.location.pathname.substring(0, 9) === "/archive/") {
-        panel_cover.addClass('panel-cover--collapsed');
     }
+
+    // if (window.location.pathname.substring(0, 5) === "/tags/") {
+    //     panel_cover.addClass('panel-cover--collapsed');
+    // }
+    //
+    // if (window.location.pathname.substring(0, 9) === "/archive/") {
+    //     panel_cover.addClass('panel-cover--collapsed');
+    // }
 
     var nav_warapper = $('.navigation-wrapper');
     var btn_m_icon = $('.btn-mobile-menu__icon');

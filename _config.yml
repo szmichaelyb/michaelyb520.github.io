@@ -10,7 +10,7 @@ creator: <a href="http://michaelyb.top">@michaelyb</a>
 
 url: "http://michaelyb.top"
 
-enforce_ssl: "michaelyb.top"
+#enforce_ssl: "michaelyb.top"
 #enforce_ssl: "michaelyb.com"
 
 permalink: /:year/:month/:title/
@@ -20,7 +20,7 @@ permalink: /:year/:month/:title/
 # highlighter: pygments
 
 # Jekyll 3.0 之后，会默认打开这一项，我们可以不用人为打开的
-highlighter: rouge
+#highlighter: rouge
 
 # markdown: redcarpet
 # redcarpet:
@@ -71,6 +71,11 @@ comment:
     livere: Michael
     # libili: Michael
     # livere: Michael  来必力
+
+# 关于sass默认路径的设置
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Social
 social:
