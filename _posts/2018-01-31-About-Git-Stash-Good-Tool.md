@@ -8,6 +8,7 @@ tags: 项目管理-SVN与GIT
 ---
 
 ## 为什么我们需要它
+
 不得不说，在知道这个命令的时，以及之后的使用中，我都超级热爱这个命令，因为它真的太好用了。
 
 给大家说一下我使用这个命令的场景：
@@ -24,9 +25,10 @@ tags: 项目管理-SVN与GIT
 - C. 使用 `git stash`，将当前修改(未提交的代码)存入缓存区，切换分支修改 `bug`，回来再通过 `git stash pop` 取出来。
 
 ## 小例子，赶紧来试一下
+
 ### 存储修改
 
-OK， 上一个 `commit` 的时候，代码快照是这个样子的
+OK，上一个 `commit` 的时候，代码快照是这个样子的
 
 ```java
 public class MainActivity extends AppCompatActivity {
