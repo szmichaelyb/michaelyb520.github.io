@@ -14,6 +14,7 @@ tags: 科学上网
 >前几天谷歌翻译APP更新了5.8.0版本，并说明对中国优化，手机上终于可以不用挂VPN使用了。但是Google搜索服务目前还是不能使用，我之前是购买的云梯VPN服务，但是觉得不是很好使，有时链接不上，这又刚好到期了，于是就想着自己搭建一个VPS，科学上网。在这里记录一下。
 
 ## VPS介绍
+
 - **简介：**VPS 是 Virtual private server（虚拟专用服务器）的缩写，指通过虚拟化技术在独立服务器中运行的专用服务器。每个使用VPS技术的虚拟独立服务器拥有各自独立的公网IP地址、操作系统、硬盘空间、内存空间、CPU资源等，还可以进行安装程序、重启服务器等操作，与运行一台独立服务器完全相同。说简单点，就是可以将一部真实的服务器中分割成多个不同的虚拟服务器，只是它们暴露给用户的感觉就像是一个独立的机器而已。
 - **要求：**本地要想科学上网，需要你的VPS能够翻墙，所以可以选择购买香港或者海外的服务器，国外的比如：DigitalOcean、Vutrl、BandwagonHost(搬瓦工)等等。
 - **选择：**
@@ -96,6 +97,7 @@ e.g.：
  >停止运行： `ssserver -c /etc/shadowsocks.json -d stop`
 
 ## 客户端安装
+
 客户端安装比较简单，这里直接推荐`ShadowsocksX-NG`，然后配置：
 
 ![客户端配置](http://hanwp.github.io/images/vultr_shadowsocks/%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE.png)
@@ -103,9 +105,11 @@ e.g.：
 iPhone的话推荐：**Wingy**。
 
 ## 锐速加速
+
 锐速（`serverspeeder`），是一款TCP加速程序，能够增强VPS服务器连接的稳定性，且有效的提高服务器的带宽利用率，进而提高访问速度。具体教程参考这里：[Ubuntu 14.04 更换内核以安装锐速](https://blessing.studio/ubuntu-14-04-change-kernel-to-install-serverspeeder/)。
 
 ## 搭建VPN
+
 上面只是搭建了SS代理，如果你需要终端也能翻墙，就需要搭建`VPN`了。可以参考这篇文章：[CentOS/Ubuntu一键安装IPSEC/IKEV2 VPN服务器](https://quericy.me/blog/699/)。
 
 
