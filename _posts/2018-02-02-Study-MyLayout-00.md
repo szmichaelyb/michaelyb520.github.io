@@ -15,7 +15,7 @@ tags: MyLayout
 
 地址2：[IOS不用AutoLayout也能实现自动布局的类(2)](http://blog.csdn.net/yangtiang/article/details/46492083)
 
-地址3：[IOS不用AutoLayout也能实现自动布局的类(3)-](http://blog.csdn.net/yangtiang/article/details/46795231)
+地址3：[IOS不用AutoLayout也能实现自动布局的类(3)](http://blog.csdn.net/yangtiang/article/details/46795231)
 
 地址4：[IOS不用AutoLayout也能实现自动布局的类(4)](http://blog.csdn.net/yangtiang/article/details/48011431)
 
