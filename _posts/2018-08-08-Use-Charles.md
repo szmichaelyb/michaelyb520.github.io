@@ -98,7 +98,7 @@ Charles 主要提供两种查看封包的视图，分别名为 “Structure” �
 
   一个完整的rewrite如下图： 
 
-  ![Charles-Rewrite-Settings](../assets/images/2018/Charles/Charles-Rewrite-Settings.jpg)
+  ![Charles-Rewrite-Settings](/assets/images/2018/Charles/Charles-Rewrite-Settings.jpg)
 
   就可以将”id”改为222222了。 
 
