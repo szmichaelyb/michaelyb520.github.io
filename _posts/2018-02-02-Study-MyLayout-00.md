@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  MyLayout-一个可以和AutoLayout一较高下的布局框架
+title:  一个可以和AutoLayout一较高下的布局框架
 author: Michael
 Date: 2017-12-02 10:37:00 +8000
 Categories: MyLayout
