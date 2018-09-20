@@ -53,3 +53,65 @@ java.net.UnknownServiceException: CLEARTEXT communication ** not permitted by ne
 ### 相关参考链接
 - [Protecting users with TLS by default in Android P]([https://android-developers.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html ](https://android-developers.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html))
 - [DNS over TLS support in Android P Developer Preview](https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html)
+- [Android 8: Cleartext HTTP traffic not permitted](https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted)
+- [网络安全性配置](https://developer.android.com/training/articles/security-config#CleartextTrafficPermitted)
+
+### 网络其他方案描述
+
+> 从Android 9开始，需要根据网络全进行相关配置(According to Network security configuration )。
+> Starting with Android 9.0 (API level 28), cleartext support is disabled by default.
+
+- 方案1
+  - Create file res/xml/network_security_config.xml
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+		<network-security-config>
+    		<domain-config cleartextTrafficPermitted="true">
+        		<domain includeSubdomains="true">Your URL(ex: 127.0.0.1)</domain>
+        	</domain-config>
+		</network-security-config>
+    ```
+  - 在AndroidManifest.xml增加一项配置
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <manifest ...>
+    	<uses-permission android:name="android.permission.INTERNET" />
+    	<application
+    		...
+    		android:networkSecurityConfig="@xml/network_security_config"
+    		...>
+    		...
+    	</application>
+    </manifest>
+    ```
+- 方案2
+  在AndroidManifest.xml中设置`android:usesCleartextTraffic="true"`即可。
+  ```xml
+  <?xml version="1.0" encoding="utf-8"?>
+  <manifest ...>
+  	<uses-permission android:name="android.permission.INTERNET" />
+  	<application
+  		...
+  		android:usesCleartextTraffic="true"
+  		...>
+  		...
+  	</application>
+  </manifest>
+  ```
+  但这样设置会有一个问题，具体见下面：
+  > Also as @david.s' answer pointed out android:targetSandboxVersion can be a problem too.
+  > According to Manifest Docs：
+  > `android:targetSandboxVersion`
+  > The target sandbox for this app to use. The higher the sandbox version number, the higher the level of security. Its default value is 1; you can also set it to 2. Setting this attribute to 2 switches the app to a different SELinux sandbox. The following restrictions apply to a level 2 sandbox:
+  > - The default value of usesCleartextTraffic in the Network Security Config is false.
+  > - Uid sharing is not permitted.
+- 方案3
+  如果在`<manifest>`中有配置`android:targetSandboxVersion`，将其减少到1.
+  即在 AndroidManifest.xml 文件中：
+  ```xml
+  <?xml version="1.0" encoding="utf-8"?>
+  <manifest android:targetSandboxVersion="1">
+  	<uses-permission android:name="android.permission.INTERNET" />
+  	...
+  </manifest>
+  ```
