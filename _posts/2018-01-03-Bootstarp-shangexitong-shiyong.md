@@ -4,7 +4,7 @@ title:  Bootstrap栅格系统使用方法
 author: Michael
 cate: 2018-01-03 10:54:00 +8000
 categories: Web前端
-tags: Web前端-BootStarp
+tags: Web前端-BootStrap
 ---
 
 如果你以前使用过 **Bootstrap2** 或者了解过[响应式技术](http://www.yeahzan.com/blog/item/42-77.html)，那么肯定对 **Bootstrap栅格系统** 并不陌生，由于栅格系统的引入，使得 [Bootstrap](http://www.yeahzan.com/zanblog) 的跨设备布局显示变得可能。

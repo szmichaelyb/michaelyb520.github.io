@@ -2,9 +2,9 @@
 layout: post
 title: 用Bootstrap 3 制作高度相同的 div (column)
 author: Michael
-date: 2018-01-01 10:54:00 +8000
+date: 2018-01-19 10:54:00 +8000
 categories: Web前端
-tags: Web前端-BootStarp
+tags: Web前端-BootStrap
 ---
 
 排版网页时，常常会碰到的一个需求，就是希望左右栏位的高度可以相同。而让栏位的高度相同已经不是什麽新奇的事了，所以今天要分享的是，当你使用 `Bootstrap Grid` 制作作网页时，该如何将这个效果套用在 `Bootstrap` 里。
