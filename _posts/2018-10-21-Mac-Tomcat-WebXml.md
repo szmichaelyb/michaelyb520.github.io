@@ -2,10 +2,12 @@
 layout: post
 title:  Tomcat web工程 web.xml 配置详解
 author: Michael
-Date: 2018-10-21 10:09:00 +8000
+Date: 2018-11-06 10:09:00 +8000
 Categories: Java开发
 tags: Tomcat
 ---
+
+![apach-tomcat-img](/assets/images/2018/Tomcat/apach-tomcat-img.png)
 
 在`Java`工程中，`web.xml`用来初始化工程配置信息，比如说`welcome`页面，**filter，listener，servlet，servlet-mapping，启动加载级别**等等。
 
