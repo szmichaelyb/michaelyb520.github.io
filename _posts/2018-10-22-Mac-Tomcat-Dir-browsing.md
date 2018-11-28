@@ -11,10 +11,10 @@ tags: Tomcat
 
 找到tomcat服务器安装目录，进入conf文件夹，找到web.xml文件，打开。
 
-![tomcat-dir-01](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-01.png)
+![tomcat-dir-01](/assets/images/2018/Tomcat/tomcat-dir-01.png)
 
 打开之后搜索listings关键字，找到如下位置
 
-![tomcat-dir-02](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-02.png)
+![tomcat-dir-02](/assets/images/2018/Tomcat/tomcat-dir-02.png)
 
 将绿色区域的false改为true，然后重启tomcat，即可。

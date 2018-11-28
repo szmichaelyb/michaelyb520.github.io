@@ -19,7 +19,7 @@ tags: Tomcat
 
 众(Java)所(程序猿)周知，一般访问Tomcat某个目录时，如果没有设置欢迎文件的话，是会报找不到的异常的（也就是传说中的404），如果你开心的话，是可以设置欢迎文件来防止404，显然这个方法是解决不了我们的需求的，确切来说，是没办法简单解决。（如果非要解决，思路无非是这样，设置欢迎文件，在欢迎文件里读取当前目录，并将目录下的子目录遍历作为列表展示给访问者，这里不做讨论，爱咋咋地）。
 
-![tomcat-dir-04](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-04.png)
+![tomcat-dir-04](/assets/images/2018/Tomcat/tomcat-dir-04.png)
 
 片头结束，开始正片，**Tomcat是提供目录访问功能的**，请不要眨眼观看下列实验步骤。
 
@@ -53,7 +53,7 @@ tags: Tomcat
     ```
     接下来，访问http://localhost/zoro观看效果，是不是看到了，甩手就是一个404。
 
-    ![tomcat-dir-05](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-05.png)
+    ![tomcat-dir-05](/assets/images/2018/Tomcat/tomcat-dir-05.png)
 
 
 ### 2. 修改tomcat配置
@@ -85,7 +85,7 @@ tags: Tomcat
 
   把上面的listings的值改为`true`，然后重启tomcat查看效果。
 
-  ![tomcat-dir-06](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-06.png)
+  ![tomcat-dir-06](/assets/images/2018/Tomcat/tomcat-dir-06.png)
 
   是不是很丑，我也觉得很丑，对于我这种颜控来说，简直不忍直视，看不下去了，那就开始整容。
 ### 3. 定制目录列表
@@ -268,13 +268,13 @@ tags: Tomcat
 
   重启tomcat，看效果。
 
-  ![tomcat-dir-07](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-07.png)
+  ![tomcat-dir-07](/assets/images/2018/Tomcat/tomcat-dir-07.png)
 
   是不是好了一些了，但是还是一般般，毕竟是官网提供的示例，也没办法漂亮到哪里去，不过定制的方法已经提供，剩下的就是html美化了，各位可以自行发挥。
 
   格子这边用bootstrap的表格改了一版，如图。
 
-  ![tomcat-dir-08](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-08.png)
+  ![tomcat-dir-08](/assets/images/2018/Tomcat/tomcat-dir-08.png)
 
 ### 5. 再啰嗦几句
 
