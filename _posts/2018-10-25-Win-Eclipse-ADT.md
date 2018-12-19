@@ -7,7 +7,7 @@ Categories: Android开发
 tags: Eclipse
 ---
 
-#### ADT下载地址（含各版本），最新ADT-23.0.6
+### ADT下载地址（含各版本），最新ADT-23.0.6
 
 ADT不分32或64位<br />
 2015/05/07 新增<br />
@@ -17,13 +17,11 @@ ADT-23.0.6.zip<br />
 ADT-23.0.3.zip<br />
 ADT-23.0.4.zip<br />
 
-
 [ADT百度云下载链接（含各版本）](http://pan.baidu.com/s/1qWFJoF6)：http://pan.baidu.com/s/1qWFJoF6
 
 ADT360云下载链接（含各版本）：http://yunpan.cn/cyI74cXQ9cu2Q  提取码 f38c
 
-
-官网各版本下载链接：
+### 官网各版本下载链接：
 
 https://dl.google.com/Android/ADT-23.0.6.zip<br />
 http://dl.google.com/android/ADT-23.0.4.zip<br />
