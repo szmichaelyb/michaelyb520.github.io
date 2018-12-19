@@ -45,6 +45,7 @@ nav:
     - {title: 全部, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about/'}
+    # - {title: 404, description: 404, url: '/404/'}
     # - {title: 关于我, description: about, url: '/about'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/'}
     # - {title: 关于我, description: 了解更多关于我, url: '/about/index.html'}

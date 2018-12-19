@@ -1,24 +1,38 @@
 ---
-layout: default
+permalink: /404/index.html
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>404</title>
+  <style type="text/css" media="screen">
+    .container {
+      margin: 10px auto;
+      max-width: 600px;
+      text-align: center;
+    }
+    h1 {
+      margin: 30px 0;
+      font-size: 4em;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+  </style>
+  <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+  <!-- <div class="container">
+    <h1>404</h1>
+    <p><strong>Page not found :(</strong></p>
+    <p>The requested page could not be found.</p>
+  </div> -->
+  <div id="page1"></div>
+  <script>
+    $("#page1").load("404/index.html");
+  </script>
+</body>
+</html>
 
-<div class="container">
-  <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+
