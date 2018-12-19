@@ -9,20 +9,18 @@ tags: Eclipse
 
 #### ADT下载地址（含各版本），最新ADT-23.0.6
 
-ADT不分32或64位）
-2015/05/07 新增
-ADT-23.0.6.zip
+ADT不分32或64位<br />
+2015/05/07 新增<br />
+ADT-23.0.6.zip<br />
 
-2015/01/18新增
-ADT-23.0.3.zip
-ADT-23.0.4.zip
+2015/01/18新增<br />
+ADT-23.0.3.zip<br />
+ADT-23.0.4.zip<br />
 
 
-[ADT百度云下载链接（含各版本）](http://pan.baidu.com/s/1qWFJoF6)
-http://pan.baidu.com/s/1qWFJoF6
+[ADT百度云下载链接（含各版本）](http://pan.baidu.com/s/1qWFJoF6)：http://pan.baidu.com/s/1qWFJoF6
 
-ADT360云下载链接（含各版本）：
-http://yunpan.cn/cyI74cXQ9cu2Q  提取码 f38c
+ADT360云下载链接（含各版本）：http://yunpan.cn/cyI74cXQ9cu2Q  提取码 f38c
 
 
 官网各版本下载链接：
