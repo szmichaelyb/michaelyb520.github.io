@@ -19,7 +19,7 @@ tags: Eclipse
 
 4. 通过 Android SDK Manager安装更新Android SDK工具
 
-![Mac上Eclipse配置ADT](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Eclipse/Mac上Eclipse配置ADT.png)
+![Mac上Eclipse配置ADT](/assets/images/2018/Eclipse/Mac上Eclipse配置ADT.png)
 
 ### 详细步骤说明
 

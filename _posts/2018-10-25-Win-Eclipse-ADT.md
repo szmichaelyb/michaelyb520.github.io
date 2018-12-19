@@ -27,9 +27,9 @@ http://yunpan.cn/cyI74cXQ9cu2Q  提取码 f38c
 
 官网各版本下载链接：
 
-https://dl.google.com/Android/ADT-23.0.6.zip
-http://dl.google.com/android/ADT-23.0.4.zip
-http://dl.google.com/android/ADT-23.0.3.zip
+[https://dl.google.com/Android/ADT-23.0.6.zip](https://dl.google.com/Android/ADT-23.0.6.zip)
+[http://dl.google.com/android/ADT-23.0.4.zip](http://dl.google.com/android/ADT-23.0.4.zip)
+[http://dl.google.com/android/ADT-23.0.3.zip](http://dl.google.com/android/ADT-23.0.4.zip)
 http://dl.google.com/android/ADT-23.0.2.zip
 http://dl.google.com/android/ADT-23.0.0.zip
 http://dl.google.com/android/ADT-22.6.3.zip

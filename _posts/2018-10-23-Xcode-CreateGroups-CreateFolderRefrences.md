@@ -13,7 +13,7 @@ tags: iOS开发
 
 ### 一. 案例介绍演示
 
-![iOS开发001](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/iOS/iOS开发001.gif)
+![iOS开发001](/assets/images/2018/iOS/iOS开发001.gif)
 
 1. **步骤提示：**
 

@@ -9,7 +9,7 @@ tags: Tomcat
 
 > 文章主要介绍了Tomcat部署项目的几种常见方式，文中给大家提到了三种方法，除此之外还有Tomcat热部署的方式。
 
-![tomcat-dir-09](/Users/Michael/Desktop/GIT_LOCAL/Michael-Blog/assets/images/2018/Tomcat/tomcat-dir-09.jpg)
+![tomcat-dir-09](/assets/images/2018/Tomcat/tomcat-dir-09.jpg)
 
 1. **直接将web项目文件件拷贝到webapps目录中**
 
