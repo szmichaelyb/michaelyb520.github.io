@@ -30,7 +30,7 @@ iOS 9 中最引人注目的新特性就是多任务了，在很久以前的越�
 
 Adaptive UI 是 Apple 在 iOS 8 提出的概念。在此之前，我们如果想要同时为 iPhone 和 iPad 开发 app 的话，很可能会写很多设备判断的代码，比如这样：
 
-```swifts
+```swift
 if UI_USER_INTERFACE_IDIOM() == .Pad {
     // 设备是 iPad
 }

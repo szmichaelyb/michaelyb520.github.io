@@ -16,7 +16,6 @@ tags: 机器学习
 
 ```
 benchmark 、 camera 、 simple 、README.md
-
 ```
 
 ### 如果你发现项目无法运行，请看这里
@@ -35,13 +34,13 @@ benchmark 、 camera 、 simple 、README.md
 
 进入目录：tensorflow-master/tensorflow/contrib/makefile，你可以看到一大堆 .sh 结尾的文件，找到 build_all_ios.sh ，Mac 上可以直接在 termina（终端）上运行命令编译
 
-```
+```Bash
 $ sh build_all_ios.sh
 ```
 
 这个编译的过程是很漫长的，一般在一个小时左右。也有可能你在编译的过程中会遇到问题，这次我只遇到一个问题：
 
-```
+```bash
 configure.ac:30: error: required file 'build-aux/ltmain.sh' not found
 configure.ac:24: installing 'build-aux/missing'
 Makefile.am: installing 'build-aux/depcomp'

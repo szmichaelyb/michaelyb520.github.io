@@ -25,12 +25,12 @@ tags: Python
 这些在Linux的命令都可以使用脚本来完成的，python的 `os.popen()` 方法 就是可以在Linux上执行shell命令。     
 **例如：**  把下面这段代码添加到一个 test.py 的文件里，然后在终端上执行 `python test.py` 命令你就会看到，你的当前目录下正在下载我的博客了。
 
-```     
+```     python
 import os
 
 os.popen('git clone https://github.com/leopardpan/leopardpan.github.io.git')   
 
-```       
+```
 git pull 。。。 更新代码也是一样的。
 
 接下来的打包、安装、运行都是使用python执行shell命令      
@@ -77,37 +77,38 @@ data里面就是json字符串，为了脚本操作简单，我在存储的时候
 Python对SMTP支持有smtplib和email两个模块，email负责构造邮件，smtplib负责发送邮件，具体代码如下： 
 
 
-	from email import encoders
-	from email.header import Header
-	from email.mime.text import MIMEText
-	from email.utils import parseaddr, formataddr
-	import smtplib
+```python
+from email import encoders
+from email.header import Header
+from email.mime.text import MIMEText
+from email.utils import parseaddr, formataddr
+import smtplib
 
-	def format_addr(self,s):
-	    name, addr = parseaddr(s)
-	    return formataddr(( \
-	        Header(name, 'utf-8').encode(), \
-	        addr.encode('utf-8') if isinstance(addr, unicode) else addr))
+def format_addr(self,s):
+    name, addr = parseaddr(s)
+    return formataddr(( \
+        Header(name, 'utf-8').encode(), \
+        addr.encode('utf-8') if isinstance(addr, unicode) else addr))
 
-	def send_mail(self, mail, message, title):
-		from_addr = 'leopardpan@163.com'
-		password = ''
-		to_addr = mail
-		smtp_server = 'smtp.163.com'
+def send_mail(self, mail, message, title):
+	from_addr = 'leopardpan@163.com'
+	password = ''
+	to_addr = mail
+	smtp_server = 'smtp.163.com'
 
-		msg = MIMEText(message, 'plain', 'utf-8')
-		msg['From'] = self.format_addr(u'自动化测试邮件 <%s>' % from_addr)
-		msg['To'] = self.format_addr(u'管理员 <%s>' % to_addr)
-		msg['Subject'] = Header(title, 'utf-8').encode()
+	msg = MIMEText(message, 'plain', 'utf-8')
+	msg['From'] = self.format_addr(u'自动化测试邮件 <%s>' % from_addr)
+	msg['To'] = self.format_addr(u'管理员 <%s>' % to_addr)
+	msg['Subject'] = Header(title, 'utf-8').encode()
 
-		server = smtplib.SMTP(smtp_server, 25)
-		server.set_debuglevel(1)
-		server.login(from_addr, password)
-		server.sendmail(from_addr, [to_addr], msg.as_string())
-		server.quit()
+	server = smtplib.SMTP(smtp_server, 25)
+	server.set_debuglevel(1)
+	server.login(from_addr, password)
+	server.sendmail(from_addr, [to_addr], msg.as_string())
+	server.quit()
 
-	send_mail('leopardpan@icloud.com','正文','标题')
-
+send_mail('leopardpan@icloud.com','正文','标题')
+```
 
 from_addr是发送方的邮箱地址，password是开通SMTP时输入的密码     
 smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要写成smtp_server = 'smtp.gmail.com' 了。

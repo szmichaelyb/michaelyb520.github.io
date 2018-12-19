@@ -114,14 +114,14 @@ extension Data {
 
 用户可以在系统设置中修改你的应用的通知权限，除了打开和关闭全部通知权限外，用户也可以限制你的应用只能进行某种形式的通知显示，比如只允许横幅而不允许弹窗及通知中心显示等。一般来说你不应该对用户的选择进行干涉，但是如果你的应用确实需要某种特定场景的推送的话，你可以对当前用户进行的设置进行检查：
 
-```
+```swift
 UNUserNotificationCenter.current().getNotificationSettings {
     settings in 
     print(settings.authorizationStatus) // .authorized | .denied | .notDetermined
     print(settings.badgeSetting) // .enabled | .disabled | .notSupported
     // etc...
 }
-``` 
+```
 
 > 关于权限方面的使用，可以参考 Demo 中 [`AuthorizationViewController`](https://github.com/onevcat/UserNotificationDemo/blob/master/UserNotificationDemo/AuthorizationViewController.swift) 的内容。
 

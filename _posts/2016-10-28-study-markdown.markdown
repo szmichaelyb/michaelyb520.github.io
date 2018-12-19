@@ -14,11 +14,9 @@ tags: 博客建设
 
 # 1、代码块
 
-```
+```objective-c
 NSSting *str = [[NSString alloc] init];
-
 str = @"123";
-
 NSLog(@"123")；
 ```
 
@@ -63,7 +61,7 @@ _single underscores_
 **double asterisks**
 
 __double underscores__
-   
+
 un*frigging*believable
 
 \*this text is surrounded by literal asterisks\*
