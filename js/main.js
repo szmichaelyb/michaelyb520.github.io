@@ -5,6 +5,12 @@ $(document).ready(function() {
     // 表示在代码中，多处使用了同一个id选择器，JQuery建议你使用一个变量去存储这个选择器，而不是每次用的时候便拿来调用一下，
     // 它不会帮你做缓存，而是重新去取。
 
+    var m_windown = $(window);
+    var m_panel_left = $("#michael-panel-left");
+    var m_panel_right = $("#michael-panel-right");
+    var c_width = m_windown.width();
+    var panel_left_width = m_panel_left.width();
+
     var blog_btn = $('a.blog-button');
     var main_post_list = $('.main-post-list');
     var panel_cover = $('.panel-cover');
@@ -14,15 +20,26 @@ $(document).ready(function() {
         if (panel_cover.hasClass('panel-cover--collapsed')) return;
         main_post_list.removeClass('hidden');
         var currentWidth = panel_cover.width();
-        // var swing;
+        var swing = 'swing';
         if (currentWidth < 960) {
             panel_cover.addClass('panel-cover--collapsed');
             // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
         } else {
             panel_cover.css('max-width', currentWidth);
-            panel_cover.animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function() {});
+            panel_cover.animate({'max-width': '500px', 'width': '30%'}, 400, swing = 'swing', function() {});
+            m_panel_right.css({'margin-left':500,'width':c_width - 500});
             // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
         }
+        // 根据窗口宽度调整一次
+        // if (panel_left_width !== c_width) {
+        //     if (panel_left_width >= 500) {
+        //         m_panel_right.css({'margin-left':500,'width':c_width - 500});
+        //     } else if (panel_left_width < 500) {
+        //         m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
+        //     }
+        // } else {
+        //     m_panel_right.css({'margin-left':30,'margin-right':30,'width':c_width - 60});
+        // }
     });
 
     if (window.location.hash && window.location.hash === "#blog") {
@@ -62,5 +79,76 @@ $(document).ready(function() {
             nav_warapper.toggleClass('animated bounceInDown animated bounceOutUp');
         }
         btn_m_icon.toggleClass('fa fa-list fa fa-angle-up animated fadeIn');
+    });
+
+    // 监听窗口宽度
+    m_windown.resize(function() {
+
+        /*
+         alert($(window).width()); //浏览器时下窗口可视区域宽度 
+         alert($(window).height()); //浏览器时下窗口可视区域高度 
+         alert($(document).height()); //浏览器时下窗口文档的高度 
+         alert($(document.body).height());//浏览器时下窗口文档body的高度 
+         alert($(document.body).outerHeight(true));//浏览器时下窗口文档body的总高度 包括border padding margin  
+         alert($(document).width());//浏览器时下窗口文档对于象宽度 
+         alert($(document.body).width());//浏览器时下窗口文档body的高度 
+         alert($(document.body).outerWidth(true));//浏览器时下窗口文档body的总宽度 包括border padding margin
+         console.log('window.width = ' + $(window).width());
+        */
+        // 窗口宽度
+        c_width = m_windown.width();
+        panel_left_width = m_panel_left.width();
+        // var panel_max_width_left = $("#michael-panel-left").maxWidth();
+        if (panel_left_width !== c_width) {
+            // if (panel_left_width < 960) {
+            //
+            // }
+
+            // if (panel_left_width === 500) {
+            //     if (panel_cover.hasClass('hidden')) {
+            //         panel_cover.addClass('panel-cover--collapsed');
+            //         panel_cover.remove('hidden');
+            //     } else {
+            //         panel_cover.remove('panel-cover--collapsed');
+            //         panel_cover.addClass('hidden');
+            //     }
+            // }
+
+            if (panel_left_width >= 500) {
+                // if (panel_left_width < 960) {
+                //     m_panel_left.css({'width':c_width,'maxWidth':c_width});
+                //     m_panel_right.css({'margin-left':0,'width':c_width});
+                // } else {
+                //     m_panel_left.css({'width':500,'maxWidth':500});
+                //     m_panel_right.css({'margin-left':500,'width':c_width - 500});
+                // }
+
+                // m_panel_left.css({'width':500,'maxWidth':500});
+                m_panel_right.css({'margin-left':500,'width':c_width - 500});
+            } else if (panel_left_width < 500) {
+
+                // if (panel_left_width <= 100) {
+                //     m_panel_left.css({'width':c_width,'maxWidth': c_width});
+                //     m_panel_right.css({'margin-left':0,'width':c_width});
+                //     if (panel_cover.hasClass('hidden')) return;
+                //     panel_cover.remove('panel-cover--collapsed');
+                //     panel_cover.addClass('hidden');
+                // } else {
+                //     m_panel_left.css({'width':panel_left_width});
+                //     m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
+                //     if (panel_cover.hasClass('panel-cover--collapsed')) return;
+                //     panel_cover.addClass('panel-cover--collapsed');
+                //     panel_cover.remove('hidden');
+                // }
+                // m_panel_left.css({'width':'100%','maxWidth':'100%'});
+                // m_panel_right.css({'margin-left':0,'width':'100%'});
+                m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
+            }
+            // console.log('c_width = ' + c_width);
+            // console.log('panel_width_left = ' + panel_left_width);
+            // m_panel_left.css.marginRight;
+        } else {
+            m_panel_right.css({'margin-left':30,'margin-right':30,'width':c_width - 60});
+        }
     });
 });

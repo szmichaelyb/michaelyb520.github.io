@@ -1,17 +1,25 @@
 ---
+layout: default
 permalink: 404.html
+title: 您访问了火星上的页面(404)
 ---
 
-<html>
 <head>
-  <meta charset="UTF-8">
-  <title>您访问的火星上的页面吗(404)</title>
   <style type="text/css" media="screen">
     *{margin: 0; padding: 0;}
-    .container {margin: 10px auto;max-width: 600px;text-align: center;}
-    h1 {margin: 30px 0;font-size: 4em;line-height: 1;letter-spacing: -1px;}
+    /*.container {margin: 10px auto;max-width: 600px;text-align: center;}*/
+    /*h1 {margin: 30px 0;font-size: 4em;line-height: 1;letter-spacing: -1px;}*/
   </style>
   <script type="text/javascript" src="../../../components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript">
+    function geturl () {
+      var pageurl = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";
+      var pageidentifier = "{{ page.url }}";
+      var baseurl = "{{ site.baseurl }}";
+      alert(baseurl);
+      console.log(baseurl);
+    };
+  </script>
 </head>
 <body>
   <!-- <div class="container">
@@ -19,15 +27,15 @@ permalink: 404.html
     <p><strong>Page not found :(</strong></p>
     <p>The requested page could not be found.</p>
   </div> -->
-  <div id="page1"></div>
+  <div id="page404"></div>
   <script>
-    $("#page1").load("../../../404/index.html");
+    $("#page404").load("../../../404/index.html");
+    geturl();
   </script>
   <!-- <div id="page404">
     <iframe align="center" width="100%" height="100%" src="404/index.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
   </div> -->
 </body>
-</html>
 
 
 

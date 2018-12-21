@@ -27,11 +27,9 @@
     <link rel="icon" href="/assets/images/favicon.ico" type="image/png" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico"  type="image/png" />
     <link rel="bookmark" href="/assets/images/favicon.ico" type="image/png" />
-
     <link rel="stylesheet" href="{{'/css/main.min.css' | prepend: site.baseurl }}" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
-    <!--<link rel="stylesheet" href="{{'/components/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}" />-->
-
+    <link rel="stylesheet" href="{{'/components/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}" />
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" /> -->
     <!-- <link rel="stylesheet" href="{{ '/static/css/pygments.css' | prepend: site.baseurl }}" /> -->
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
@@ -39,22 +37,17 @@
 
     <!-- <script type="text/javascript" src="../components/jquery/dist/jquery.min.js"></script> -->
     <!-- 站点统计 -->
-    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!-- 因七牛强制过期『dn-lbstatics.qbox.me』域名，与客服沟通无果，只能更换域名到『busuanzi.ibruce.info』！ -->
+    <!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!-- 引入jQuery -->
+    <script type="text/javascript" src="{{'/components/jquery/dist/jquery.min.js' | prepend: site.baseurl }}"></script>
 
     <!--来访用户的IP和地区-->
     <!--<script type="text/javascript" src="http://ip.chinaz.com/getip.aspx"></script>-->
 
     <!--Web版本网站统计，不是移动端app的百度统计哈-->
     <!-- 百度统计 -->
-    <!--<script>-->
-        <!--var _hmt = _hmt || [];-->
-        <!--(function() {-->
-            <!--var hm = document.createElement("script");-->
-            <!--hm.src = "https://hm.baidu.com/hm.js?f23c3d4094ad48f36e3db36be61d1124";-->
-            <!--var s = document.getElementsByTagName("script")[0];-->
-            <!--s.parentNode.insertBefore(hm, s);-->
-        <!--})();-->
-    <!--</script>-->
     {% if site.baidu.id %}
     <script>
         var _hmt = _hmt || [];
