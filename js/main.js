@@ -57,13 +57,10 @@ $(document).ready(function() {
 
     // post_list_btn.click(function() {
     //     // If already in blog, return early without animate overlay panel again.
-    //     if (location.hash && location.hash === "#blog") return;
-    //     if (panel_cover.hasClass('panel-cover--collapsed')) return;
-    //     main_post_list.removeClass('hidden');
     //     var currentWidth = panel_cover.width();
     //     var swing = 'swing';
     //     if (currentWidth < 960) {
-    //         panel_cover.addClass('panel-cover--collapsed');
+    //         // panel_cover.addClass('panel-cover--collapsed');
     //         // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
     //     } else {
     //         panel_cover.css('max-width', currentWidth);
