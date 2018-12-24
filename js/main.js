@@ -138,53 +138,11 @@ $(document).ready(function() {
         c_width = m_windown.width();
         panel_left_width = m_panel_left.width();
         if (panel_left_width !== c_width) {
-            // if (panel_left_width < 960) {
-            //
-            // }
-
-            // if (panel_left_width === 500) {
-            //     if (panel_cover.hasClass('hidden')) {
-            //         panel_cover.addClass('panel-cover--collapsed');
-            //         panel_cover.remove('hidden');
-            //     } else {
-            //         panel_cover.remove('panel-cover--collapsed');
-            //         panel_cover.addClass('hidden');
-            //     }
-            // }
-
             if (panel_left_width >= 500) {
-                // if (panel_left_width < 960) {
-                //     m_panel_left.css({'width':c_width,'maxWidth':c_width});
-                //     m_panel_right.css({'margin-left':0,'width':c_width});
-                // } else {
-                //     m_panel_left.css({'width':500,'maxWidth':500});
-                //     m_panel_right.css({'margin-left':500,'width':c_width - 500});
-                // }
-
-                // m_panel_left.css({'width':500,'maxWidth':500});
                 m_panel_right.css({'margin-left':500,'width':c_width - 500});
             } else if (panel_left_width < 500) {
-
-                // if (panel_left_width <= 100) {
-                //     m_panel_left.css({'width':c_width,'maxWidth': c_width});
-                //     m_panel_right.css({'margin-left':0,'width':c_width});
-                //     if (panel_cover.hasClass('hidden')) return;
-                //     panel_cover.remove('panel-cover--collapsed');
-                //     panel_cover.addClass('hidden');
-                // } else {
-                //     m_panel_left.css({'width':panel_left_width});
-                //     m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
-                //     if (panel_cover.hasClass('panel-cover--collapsed')) return;
-                //     panel_cover.addClass('panel-cover--collapsed');
-                //     panel_cover.remove('hidden');
-                // }
-                // m_panel_left.css({'width':'100%','maxWidth':'100%'});
-                // m_panel_right.css({'margin-left':0,'width':'100%'});
                 m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
             }
-            // console.log('c_width = ' + c_width);
-            // console.log('panel_width_left = ' + panel_left_width);
-            // m_panel_left.css.marginRight;
         } else {
             m_panel_right.css({'margin-left':30,'margin-right':30,'width':c_width - 60});
         }
