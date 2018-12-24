@@ -11,9 +11,32 @@ $(document).ready(function() {
     var c_width = m_windown.width();
     var panel_left_width = m_panel_left.width();
 
+    // var post_list_btn = $('.btn-border-small');
     var blog_btn = $('a.blog-button');
     var main_post_list = $('.main-post-list');
     var panel_cover = $('.panel-cover');
+
+    /*
+    function add_panel_collapsed() {
+        // If already in blog, return early without animate overlay panel again.
+        if (location.hash && location.hash === "#blog") return;
+        if (panel_cover.hasClass('panel-cover--collapsed')) return;
+        main_post_list.removeClass('hidden');
+        var currentWidth = panel_cover.width();
+        var swing = 'swing';
+        if (currentWidth < 960) {
+            panel_cover.addClass('panel-cover--collapsed');
+            // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
+        } else {
+            panel_cover.css('max-width', currentWidth);
+            panel_cover.animate({'max-width': '500px', 'width': '30%'}, 400, swing = 'swing', function() {});
+            m_panel_right.css({'margin-left':500,'width':c_width - 500});
+            // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
+        }
+    }*/
+    // blog_btn.click(add_panel_collapsed());
+    // post_list_btn.click(add_panel_collapsed());
+
     blog_btn.click(function() {
         // If already in blog, return early without animate overlay panel again.
         if (location.hash && location.hash === "#blog") return;
@@ -21,7 +44,7 @@ $(document).ready(function() {
         main_post_list.removeClass('hidden');
         var currentWidth = panel_cover.width();
         var swing = 'swing';
-        if (currentWidth < 2000) {
+        if (currentWidth < 960) {
             panel_cover.addClass('panel-cover--collapsed');
             // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
         } else {
@@ -32,16 +55,32 @@ $(document).ready(function() {
         }
     });
 
+    // post_list_btn.click(function() {
+    //     // If already in blog, return early without animate overlay panel again.
+    //     if (location.hash && location.hash === "#blog") return;
+    //     if (panel_cover.hasClass('panel-cover--collapsed')) return;
+    //     main_post_list.removeClass('hidden');
+    //     var currentWidth = panel_cover.width();
+    //     var swing = 'swing';
+    //     if (currentWidth < 960) {
+    //         panel_cover.addClass('panel-cover--collapsed');
+    //         // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
+    //     } else {
+    //         panel_cover.css('max-width', currentWidth);
+    //         panel_cover.animate({'max-width': '500px', 'width': '30%'}, 400, swing = 'swing', function() {});
+    //         m_panel_right.css({'margin-left':500,'width':c_width - 500});
+    //         // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
+    //     }
+    // });
+
     if (window.location.hash && window.location.hash === "#blog") {
-        if (panel_cover.hasClass('panel-cover--collapsed')) return;
         panel_cover.addClass('panel-cover--collapsed');
         main_post_list.removeClass('hidden');
     }
 
     if (window.location.pathname.substring(0, 5) === "/tags/") {
-        if (panel_cover.hasClass('panel-cover--collapsed')) return;
         panel_cover.addClass('panel-cover--collapsed');
-        main_post_list.removeClass('hidden');
+        // main_post_list.removeClass('hidden');
     }
 
     // if (window.location.pathname.substring(0, 9) === "/archive/") {
@@ -76,23 +115,28 @@ $(document).ready(function() {
     });
 
     // 监听窗口宽度
-    m_windown.resize(function() {
+    m_windown.resize(function () {
+        // 浏览器时下窗口可视区域宽度
+        // alert($(window).width());
+        // 浏览器时下窗口可视区域高度
+        // alert($(window).height());
+        // 浏览器时下窗口文档的高度
+        // alert($(document).height());
+        // 浏览器时下窗口文档body的高度
+        // alert($(document.body).height());
+        // 浏览器时下窗口文档body的总高度 包括border padding margin
+        // alert($(document.body).outerHeight(true));
+        // 浏览器时下窗口文档对于象宽度
+        // alert($(document).width());
+        // 浏览器时下窗口文档body的高度
+        // alert($(document.body).width());
+        // 浏览器时下窗口文档body的总宽度 包括border padding margin
+        // alert($(document.body).outerWidth(true));
+        // console.log('window.width = ' + $(window).width());
 
-        /*
-         alert($(window).width()); //浏览器时下窗口可视区域宽度 
-         alert($(window).height()); //浏览器时下窗口可视区域高度 
-         alert($(document).height()); //浏览器时下窗口文档的高度 
-         alert($(document.body).height());//浏览器时下窗口文档body的高度 
-         alert($(document.body).outerHeight(true));//浏览器时下窗口文档body的总高度 包括border padding margin  
-         alert($(document).width());//浏览器时下窗口文档对于象宽度 
-         alert($(document.body).width());//浏览器时下窗口文档body的高度 
-         alert($(document.body).outerWidth(true));//浏览器时下窗口文档body的总宽度 包括border padding margin
-         console.log('window.width = ' + $(window).width());
-        */
         // 窗口宽度
         c_width = m_windown.width();
         panel_left_width = m_panel_left.width();
-        // var panel_max_width_left = $("#michael-panel-left").maxWidth();
         if (panel_left_width !== c_width) {
             // if (panel_left_width < 960) {
             //
@@ -146,3 +190,43 @@ $(document).ready(function() {
         }
     });
 });
+
+// var m_windown = $(window);
+// var m_panel_left = $("#michael-panel-left");
+// var m_panel_right = $("#michael-panel-right");
+// var c_width = m_windown.width();
+// var panel_left_width = m_panel_left.width();
+//
+// // var post_list_btn = $('.btn-border-small');
+// var blog_btn = $('a.blog-button');
+// var main_post_list = $('.main-post-list');
+// var panel_cover = $('.panel-cover');
+//
+// // 监听窗口宽度
+// m_windown.resize(function () {
+//     // 窗口宽度
+//     c_width = m_windown.width();
+//     panel_left_width = m_panel_left.width();
+//     if (panel_left_width !== c_width) {
+//         if (panel_left_width >= 500) {
+//             m_panel_right.css({'margin-left':500,'width':c_width - 500});
+//         } else if (panel_left_width < 500) {
+//             m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
+//         }
+//     } else {
+//         m_panel_right.css({'margin-left':30,'margin-right':30,'width':c_width - 60});
+//     }
+// });
+//
+// m_windown.onload(function () {
+//     // 窗口宽度
+//     if (panel_left_width !== c_width) {
+//         if (panel_left_width >= 500) {
+//             m_panel_right.css({'margin-left':500,'width':c_width - 500});
+//         } else if (panel_left_width < 500) {
+//             m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
+//         }
+//     } else {
+//         m_panel_right.css({'margin-left':30,'margin-right':30,'width':c_width - 60});
+//     }
+// });
