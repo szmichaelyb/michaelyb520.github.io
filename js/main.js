@@ -21,7 +21,7 @@ $(document).ready(function() {
         main_post_list.removeClass('hidden');
         var currentWidth = panel_cover.width();
         var swing = 'swing';
-        if (currentWidth < 960) {
+        if (currentWidth < 2000) {
             panel_cover.addClass('panel-cover--collapsed');
             // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
         } else {
@@ -30,27 +30,20 @@ $(document).ready(function() {
             m_panel_right.css({'margin-left':500,'width':c_width - 500});
             // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
         }
-        // 根据窗口宽度调整一次
-        // if (panel_left_width !== c_width) {
-        //     if (panel_left_width >= 500) {
-        //         m_panel_right.css({'margin-left':500,'width':c_width - 500});
-        //     } else if (panel_left_width < 500) {
-        //         m_panel_right.css({'margin-left':panel_left_width,'width':c_width - panel_left_width});
-        //     }
-        // } else {
-        //     m_panel_right.css({'margin-left':30,'margin-right':30,'width':c_width - 60});
-        // }
     });
 
     if (window.location.hash && window.location.hash === "#blog") {
+        if (panel_cover.hasClass('panel-cover--collapsed')) return;
         panel_cover.addClass('panel-cover--collapsed');
         main_post_list.removeClass('hidden');
     }
 
-    // if (window.location.pathname.substring(0, 5) === "/tags/") {
-    //     panel_cover.addClass('panel-cover--collapsed');
-    // }
-    //
+    if (window.location.pathname.substring(0, 5) === "/tags/") {
+        if (panel_cover.hasClass('panel-cover--collapsed')) return;
+        panel_cover.addClass('panel-cover--collapsed');
+        main_post_list.removeClass('hidden');
+    }
+
     // if (window.location.pathname.substring(0, 9) === "/archive/") {
     //     panel_cover.addClass('panel-cover--collapsed');
     // }
@@ -70,7 +63,8 @@ $(document).ready(function() {
         btn_m_icon.toggleClass('fa fa-list fa fa-angle-up animated fadeIn');
     });
 
-    $('.navigation-wrapper .blog-button').click(function() {
+    var nav_blog_btn = $('.navigation-wrapper .blog-button');
+    nav_blog_btn.click(function() {
         if (nav_warapper.css('display') === "block") {
             nav_warapper.on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
                 nav_warapper.toggleClass('visible animated bounceOutUp');
