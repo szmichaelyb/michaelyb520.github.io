@@ -205,13 +205,15 @@ thead tr:first-child {
     border: none; }
 
 th {
-    font-weight: bold; }
+    font-weight: bold;
+    vertical-align: middle;
+}
 
 /*th:first-child, td:first-child {*/
     /*padding: 0 15px 0 20px; }*/
 
 th:first-child, td:first-child {
-    padding: 0 20px 0 25px; }
+    padding: 5px; }
 
 /*thead tr:last-child th {*/
     /*border-bottom: 1px solid #DDDDDD; }*/
@@ -226,17 +228,24 @@ thead tr:last-child th {
     /*border: none; }*/
 
 tbody tr:last-child td {
-    border: 1px solid #DDDDDD; }
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+}
 
 tbody td {
     /*border-bottom: 1px solid #DDDDDD;*/
     /*font-size: .85em;*/
     border: 1px solid #DDDDDD;
     font-size: 0.85em;
+    padding: 5px;
+    vertical-align: middle;
 }
 
+/*td:last-child {*/
+    /*padding-right: 10px; }*/
+
 td:last-child {
-    padding-right: 10px; }
+    padding: 5px; }
 
 .date,
 .time,
