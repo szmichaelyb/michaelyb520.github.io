@@ -159,3 +159,22 @@ $(document).ready(function () {
         panel_right_resize();
     });
 });
+
+window.onload = function () {
+
+    var m_windown = $(window);
+    var m_panel_left = $("#michael-panel-left");
+    var m_panel_right = $("#michael-panel-right");
+    var c_width = m_windown.width();
+    var panel_left_width = m_panel_left.width();
+
+    if (panel_left_width !== c_width) {
+        if (panel_left_width >= 500) {
+            m_panel_right.css({'margin-left': 500, 'width': c_width - 500});
+        } else if (panel_left_width < 500) {
+            m_panel_right.css({'margin-left': panel_left_width, 'width': c_width - panel_left_width});
+        }
+    } else {
+        m_panel_right.css({'margin-left': 30, 'margin-right': 30, 'width': c_width - 60});
+    }
+}

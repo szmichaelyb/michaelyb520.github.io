@@ -1,7 +1,7 @@
 # Michael的博客
 >多年来一直想做的事，建一个属于自己的博客。
 
-这里是Demo地址[michaelyb.top](http://michaelyb.top)
+这里是博客地址[michaelyb.top](http://michaelyb.top)
 
 <section class="footer">
     <footer>
