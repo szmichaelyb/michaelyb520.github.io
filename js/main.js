@@ -93,6 +93,8 @@ $(document).ready(function () {
             m_panel_right.css({'margin-left': 500, 'width': c_width - 500});
             // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
         }
+
+        panel_right_resize();
     });
 
     // post_list_btn.click(function() {
@@ -161,7 +163,6 @@ $(document).ready(function () {
 });
 
 window.onload = function () {
-
     var m_windown = $(window);
     var m_panel_left = $("#michael-panel-left");
     var m_panel_right = $("#michael-panel-right");
@@ -177,4 +178,6 @@ window.onload = function () {
     } else {
         m_panel_right.css({'margin-left': 30, 'margin-right': 30, 'width': c_width - 60});
     }
+
+    // m_windown.resize();
 }
