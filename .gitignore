@@ -6,3 +6,4 @@ _site/
 .idea
 *.swp
 .Trashes
+Gemfile.lock
