@@ -22,19 +22,15 @@ title: 您访问了火星上的页面(404)
   </script>
 </head>
 <body>
-  <!-- <div class="container">
-    <h1>404</h1>
-    <p><strong>Page not found :(</strong></p>
-    <p>The requested page could not be found.</p>
-  </div> -->
-  <div id="page404"></div>
   <script>
-    $("#page404").load("../../../404/index.html");
-    geturl();
+    // target="_blank"
+    // $("#page404").load("../../../404/index.html");
+    // geturl();
+    var baseurl = "{{ site.baseurl }}";
+    // window.location = baseurl + "../../../404/";
+    window.location = baseurl + "/404/";
+    console.log(baseurl);
   </script>
-  <!-- <div id="page404">
-    <iframe align="center" width="100%" height="100%" src="404/index.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-  </div> -->
 </body>
 
 

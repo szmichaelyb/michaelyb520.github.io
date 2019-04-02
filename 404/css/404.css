@@ -5,8 +5,9 @@
  * 
  */
 html{overflow: hidden;}
-/*body{margin: 0; background-color: #67ace4; font-family: "\5FAE\8F6F\96C5\9ED1"; _padding-top: 100px;}*/
-body{margin: 0; background-color: #13575F; font-family: "\5FAE\8F6F\96C5\9ED1"; _padding-top: 100px;}
+/*body{margin: 0; background-color: #67ace4; font-family: "\5FAE\8F6F\96C5\9ED1"; _padding-top: 100px;} background-color: #13575F*/
+/*background-color: rgba(19,87,95,0.8); background-image: url('/assets/images/background-cover.jpg');*/
+body{margin: 0; background-color: rgba(19,87,95,0.95);font-family: "\5FAE\8F6F\96C5\9ED1"; _padding-top: 100px;}
 ::selection{background: none;}
 ::-moz-selection{background: none;}
 #wrap{margin: 140px auto 0; width: 399px;}
@@ -33,6 +34,18 @@ body{margin: 0; background-color: #13575F; font-family: "\5FAE\8F6F\96C5\9ED1"; 
 	-o-transition: 0.2s ease-out;
 	-moz-transition: 0.2s ease-out;
 	-webkit-transition: 0.2s ease-out;
+}
+
+/* 只支持IE6、7、8 */
+@media \0screen\,screen\9 {
+    .test-opacity{
+        background-color: #fff;
+        filter: Alpha(opacity=50);
+        *zoom:1;/* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    }
+    .test-opacity p{
+        position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+    }
 }
 
 #text a:hover, #text a:active{background: #fff; color: #000;}
