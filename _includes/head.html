@@ -3,9 +3,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!--百度站长工具分析统计-->
+    <!-- 百度站长工具分析统计 + 谷歌站长分析工具统计 -->
     <meta name="baidu-site-verification" content="ytP4KF7wCi" />
-    <!--谷歌站长分析工具统计-->
     <meta name="google-site-verification" content="3gfvkYryZZIDhyDwzN-IYrF7tATxamU4DgmcRSRWjh0" />
     <!--页面标题-->
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
@@ -13,29 +12,17 @@
     <meta name="author" content="Michael">
     <meta name="keywords" content="Michael,杨斌,Michael's Blog,杨斌的博客,Michael的博客">
 
-    <!--
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    -->
-
     <!--网站标题栏图标-->
     <link rel="icon" href="/assets/images/favicon.ico" type="image/png" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico"  type="image/png" />
     <link rel="bookmark" href="/assets/images/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="{{'/css/main.min.css' | prepend: site.baseurl }}" />
     <link rel="stylesheet" href="{{'/components/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}" />
-    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" /> -->
     <!-- <link rel="stylesheet" href="{{ '/static/css/pygments.css' | prepend: site.baseurl }}" /> -->
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
-    <!-- <script type="text/javascript" src="../components/jquery/dist/jquery.min.js"></script> -->
     <!-- 站点统计 -->
     <!-- 因七牛强制过期『dn-lbstatics.qbox.me』域名，与客服沟通无果，只能更换域名到『busuanzi.ibruce.info』！ -->
     <!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
