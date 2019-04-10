@@ -1,0 +1,102 @@
+.bg_topnav {
+    overflow:hidden;
+    text-align:center;
+}
+
+.bg_topnav img {
+    height:300px;
+    max-width:1440px;
+}
+
+.email-a {
+    font-size: 15px;
+    color: #aeaeae;
+}
+
+.email-a:link {
+    color: #aeaeae;
+}
+
+.email-a:hover {
+    color: #00E466;
+}
+
+.email-a:visited {
+    color: #aeaeae;
+}
+
+.email-icon {
+    font-size: 16px;
+}
+
+/*.email-a-icon:hover {*/
+/*color: #00E466;*/
+/*}*/
+
+/* 个人经历 */
+/*.reusme_job {*/
+/*color: #DEB887;*/
+/*color: rgba(21, 111, 120, 1.0);*/
+/*}*/
+
+/* 个人技能 */
+.skill_row {
+    /*margin: auto -5px;*/
+    margin: auto;
+}
+
+/*下面这2段代码，是针对bootstarpsh实现同一行中不同列由于高度不一致无法对其的修正*/
+.myprj_row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.myprj_row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    /*height: 500px;*/
+    /*background-color: #00E466;*/
+}
+/*说明：上面代码，不支持苹果Safari浏览器，因此改用下面方式（适合无边框场景）*/
+/**Bootstrap栅格系统中同行div高度不一致的解决方法。通过div底部的margin和padding实现。*/
+/*缺点：下边框无法完整显示，建议在无边框情况下使用*/
+
+/*.myprj_row {*/
+/*overflow: hidden;*/
+/*}*/
+/*.myprj_row [class*='col-'] {*/
+/*margin-bottom: -99999px;*/
+/*padding-bottom: 99999px;*/
+/*}*/
+
+@media (min-width: 1200px) {
+    .skill_row p {
+        text-align: right;
+    }
+}
+@media (max-width: 1199px) {
+    .bg_topnav img {
+        object-fit:cover;
+        -webkit-transform: translateX(-10%);
+        -ms-transform: translateX(-10%);
+        -moz-transform: translateX(-10%);
+    }
+}
+@media (max-width: 800px) {
+    .bg_topnav img {
+        object-fit:cover;
+        -webkit-transform: translateX(-25%);
+        -ms-transform: translateX(-25%);
+        -moz-transform: translateX(-25%);
+    }
+}
+@media (max-width: 600px) {
+    .bg_topnav img {
+        object-fit:cover;
+        -webkit-transform: translateX(-40%);
+        -ms-transform: translateX(-40%);
+        -moz-transform: translateX(-40%);
+    }
+}

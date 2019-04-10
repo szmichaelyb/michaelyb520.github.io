@@ -1,175 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta name="description" content="关于我的个人描述" >
     <meta name="keywords" content="michaelyb">
     <meta name="author" content="Michael">
     <title>关于我</title>
-    <!-- favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon.ico" />
-
-    <!-- Third-party CSS -->
-    <!-- 未知 -->
-    <!-- <link href="/components/normalize-css/normalize.min.css" rel="stylesheet"> -->
-    <!-- 首页结构 -->
+    <!-- 首页结构 + 首页动画 + font-awesome + 控制首页图片 -->
     <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css">
-    <!-- 首页动画 -->
     <link rel="stylesheet" href="/components/animate.css/animate.min.css">
-    <!-- font-awesome -->
     <link rel="stylesheet" href="/components/font-awesome/css/font-awesome.min.css">
-    <!-- 关于我里面几个小图标 -->
-    <!-- <link href="/static/font-mfizz/font-mfizz.css" rel="stylesheet"> -->
-    <!-- 据说是消息通知插件 -->
-    <!-- <link href="/components/jquery.gritter/css/jquery.gritter.css" rel="stylesheet"> -->
-
-    <!-- Custom styles for this template -->
-    <!-- 控制首页图片 -->
     <link rel="stylesheet" href="/static/css/yb-about-style.min.css">
-    <!--<link rel="stylesheet" href="/static/css/about-style.min.css">-->
-    <!--<link rel="stylesheet" href="/static/css/style-bak.min.css">-->
-    <!--<link rel="stylesheet" href="/static/css/style-old.css">-->
-    <!--<link rel="stylesheet" href="/static/css/style_bak.css">-->
-
-    <!-- Third-party scripts -->
+    <link rel="stylesheet" href="/css/about.me.min.css">
     <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-    <!-- 关于按钮动画 -->
+    <!-- 关于按钮动画 + 顶部菜单动画 + 首页动画 + 动画有关 -->
     <script src="/components/jquery/dist/jquery.min.js"></script>
-    <!-- 顶部菜单动画 -->
     <script src="/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/components/wow/dist/wow.min.js"></script>
+    <script src="/js/scroll.min.js"></script>
     <!-- 中英文切换 -->
     <!-- <script src="/components/i18next/i18next.min.js"></script> -->
-    <!-- 未知 -->
-    <!-- <script src="/components/PACE/pace.min.js"></script> -->
-    <!-- 首页动画 -->
-    <script src="/components/wow/dist/wow.min.js"></script>
-
-    <!-- Custom and plugin javascript -->
-    <!-- <script src="/static/js/inspinia.js"></script> -->
-
-    <!-- 动画有关 -->
-    <script src="/js/scroll.min.js"></script>
-    <!-- <script src="/static/js/localization.js"></script> -->
-    <!-- <script async src="/static/js/count.min.js"></script> -->
-
-    <style>
-        .bg_topnav {
-            /*width: 100%;*/
-            /*height: 100%;*/
-            /*width: auto;*/
-            /*height: auto;*/
-            /*height: 300px;*/
-            /*min-height: 300px;*/
-            /*background-size:100%;*/
-            /*background-clip: border-box;*/
-            /*background:url(/assets/topnav.jpg) no-repeat;*/
-            /*background:url(images/beijing.png);*/
-            overflow:hidden;
-            text-align:center;
-        }
-
-        .bg_topnav img {
-            height:300px;
-            max-width:1440px;
-        }
-
-        .email-a {
-            font-size: 15px;
-            color: #aeaeae;
-        }
-
-        .email-a:link {
-            color: #aeaeae;
-        }
-
-        .email-a:hover {
-            color: #00E466;
-        }
-
-        .email-a:visited {
-            color: #aeaeae;
-        }
-
-        .email-icon {
-            font-size: 16px;
-        }
-
-        /*.email-a-icon:hover {*/
-            /*color: #00E466;*/
-        /*}*/
-
-        /* 个人经历 */
-        /*.reusme_job {*/
-            /*color: #DEB887;*/
-            /*color: rgba(21, 111, 120, 1.0);*/
-        /*}*/
-
-        /* 个人技能 */
-        .skill_row {
-            /*margin: auto -5px;*/
-            margin: auto;
-        }
-
-        /*下面这2段代码，是针对bootstarpsh实现同一行中不同列由于高度不一致无法对其的修正*/
-        .myprj_row {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .myprj_row > [class*='col-'] {
-            display: flex;
-            flex-direction: column;
-            /*height: 500px;*/
-            /*background-color: #00E466;*/
-        }
-        /*说明：上面代码，不支持苹果Safari浏览器，因此改用下面方式（适合无边框场景）*/
-        /**Bootstrap栅格系统中同行div高度不一致的解决方法。通过div底部的margin和padding实现。*/
-        /*缺点：下边框无法完整显示，建议在无边框情况下使用*/
-
-        /*.myprj_row {*/
-            /*overflow: hidden;*/
-        /*}*/
-        /*.myprj_row [class*='col-'] {*/
-            /*margin-bottom: -99999px;*/
-            /*padding-bottom: 99999px;*/
-        /*}*/
-
-        @media (min-width: 1200px) {
-            .skill_row p {
-                text-align: right;
-            }
-        }
-        @media (max-width: 1199px) {
-            .bg_topnav img {
-                object-fit:cover;
-                -webkit-transform: translateX(-10%);
-                -ms-transform: translateX(-10%);
-                -moz-transform: translateX(-10%);
-            }
-        }
-        @media (max-width: 800px) {
-            .bg_topnav img {
-                object-fit:cover;
-                -webkit-transform: translateX(-25%);
-                -ms-transform: translateX(-25%);
-                -moz-transform: translateX(-25%);
-            }
-        }
-        @media (max-width: 600px) {
-            .bg_topnav img {
-                object-fit:cover;
-                -webkit-transform: translateX(-40%);
-                -ms-transform: translateX(-40%);
-                -moz-transform: translateX(-40%);
-            }
-        }
-    </style>
 </head>
 
 <body id="page-top" class="landing-page">
@@ -203,22 +56,6 @@
 
 <!--导航条下的banner图-->
 <div class="bg_topnav"><img src="/assets/topnav.jpg" alt="/"></div>
-<!--关于我 - 占位符 - 可以去掉-->
-<!--<div class="carousel-inner" role="listbox">-->
-    <!--<div class="item active">-->
-        <!--<div class="container">-->
-            <!--<div class="carousel-caption"></div>-->
-            <!--<div class="carousel-image wow zoomIn"></div>-->
-        <!--</div>-->
-        <!-- <div class="header-back one"></div> -->
-    <!--</div>-->
-    <!--<div class="item">-->
-        <!--<div class="container">-->
-            <!--<div class="carousel-caption blank"></div>-->
-        <!--</div>-->
-        <!-- <div class="header-back two"></div> -->
-    <!--</div>-->
-<!--</div>-->
 <!--关于我-->
 <section id="about-me" class="features" style="margin-top: 0;">
     <div class="container" id="i18_about_me">
@@ -229,29 +66,6 @@
             </div>
         </div>
         <div class="row">
-            <!-- python -->
-            <!--<div class="col-xs-2 wow fadeInLeft">-->
-                <!--<div class="team-member">-->
-                    <!--<div class="vote-icon">-->
-                        <!--<i class="icon-python"></i>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!-- linux -->
-            <!--<div class="col-xs-2 wow fadeInLeft">-->
-                <!--<div class="team-member">-->
-                    <!--<div class="vote-icon">-->
-                        <!--<i class="icon-shell"></i>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!-- avatar -->
-            <!--<div class="col-xs-4">-->
-                <!--<div class="team-member wow zoomIn">-->
-                    <!--<img src="/assets/images/about/michael-header-img.png" height="110" width="110" class="img-responsive img-circle" alt="">-->
-                    <!--<h4>Michael</h4>-->
-                <!--</div>-->
-            <!--</div>-->
             <!--说明：BootStarp将一行分成12等份，如果此头像独占一行的话，可以设置成col-xs-12即可-->
             <!--上面：其实就是(2+2)+4+4，最后一个4，由于是从左往右挨着排列，所以最后一个控件省略-->
             <!--当然，也可以用2个控件，即：4+4+4，只创建前面两个，最后一个省略-->
@@ -266,7 +80,6 @@
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
                 <p><span data-i18n="about_me.des">湖北人，目前在广东深圳工作，爱好羽毛球、篮球和音乐，喜欢鼓捣乐器，尤其是古乐器。</span></p>
                 <a class="email-a" href="mailto:gdmichael520@163.com" title="邮件联系我">
-                    <!--<span class="label">Email:gdmichael520@163.com</span>-->
                     <i class="social fa fa-envelope email-icon"></i>
                     <span class="email-a-icon">点击可邮件联系我</span>
                 </a>
@@ -483,7 +296,6 @@
         <div class="row myprj_row">
             <div class="col-sm-6 wow fadeInLeft">
                 <div class="team-member">
-                    <!--fruitday.jpg-->
                     <img src="/assets/images/about/快易豹宝98px.png" class="img-responsive img-circle img-small" alt="">
                     <h4><a target="blank"><span class="navy">快易豹宝</span></a></h4>
                     <p><span data-i18n="projects.saplatform">快易豹宝由国都证券旗下国都快易科技（深圳）有限公司专业技术团队研发，中资背景，两地监管。是一款之间跨境投资的服务软件，一站式的炒股服务让你可以观看最全的直播资讯，在线随时随地的轻松交易让你轻松的玩转股票!</span></p>
@@ -492,7 +304,6 @@
 
             <div class="col-sm-6 wow fadeInRight">
                 <div class="team-member">
-                    <!--pizzahut.jpg-->
                     <img src="/assets/images/about/ios.png" class="img-responsive img-circle img-small" alt="">
                     <h4><a target="blank"><span class="navy">赛牛会</span></a></h4>
                     <p><span data-i18n="projects.jalpc">赛牛会是国都快易专为广大投资者炒股 App，支持 A 股市场交易。免费实时行情、智能条件交易、专业投资社区、小白炒股学堂，是投资者学习并玩转A股的炒股利器。该项目后来因为某些原因，最终没有上线。<br/></span></p>
@@ -501,7 +312,6 @@
 
             <div class="col-sm-6 wow fadeInLeft">
                 <div class="team-member">
-                    <!--uniqlo.jpg-->
                     <img src="/assets/images/about/雪梨约单-738x0w.jpg" class="img-responsive img-circle img-small" alt="">
                     <h4><a target="blank"><span class="navy">雪梨约单</span></a></h4>
                     <p><span data-i18n="projects.angularjs">雪梨约单，时间与技能交易平台，时间对于我们来说是很宝贵的，用经济学的眼光看是一种财富…这是业余时间的外包项目，前期使用RN技术。<br/></span></p>
@@ -515,7 +325,6 @@
                     <p><span data-i18n="projects.rsser">曾经在其他技术供应商等公司做过很多不知名项目，包括电商、蓝牙通讯、地图定位等类型。<br/></span></p>
                 </div>
             </div>
-            <!--<div class="clearfix"></div>-->
         </div>
     </div>
     <br>
@@ -527,7 +336,6 @@
         <div class="row">
             <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
                 <div style="height: 80px;"></div>
-                <!--<a href="/" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/blog/"><span data-i18n=>进入博客</span></a>-->
                 <a href="/" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn"><span data-i18n=>进入博客</span></a>
                 <div style="height: 80px;"></div>
             </div>
