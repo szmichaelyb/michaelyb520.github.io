@@ -6,17 +6,13 @@
                 <h1 class="panel-cover__title panel-title"><a href="/#blog" title="前往 {{ site.title }} 的主页" class="blog-button">{{ site.title }}</a></h1>
                 {% if site.subtitle %}
                 <span class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</span>
-                <!--<p class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</p>-->
                 {% endif %}
-
                 <hr class="panel-cover__divider" />
                 <p class="panel-cover__description">{{ site.description }}</p>
                 <hr class="panel-cover__divider panel-cover__divider--secondary" />
-
                 {% if site.welcome_message %}
                 <p class="panel-cover__description">{{ site.welcome_message }}</p>
                 {% endif %}
-
                 <div class="navigation-wrapper">
                     <div>
                         <nav class="cover-navigation cover-navigation--primary">
@@ -25,7 +21,6 @@
                                 {% for item in site.nav %}
                                 <li class="navigation__item"><a href="{{item.url}}" target="_blank" title="{{item.description}}" class="other_tag_btn">{{item.title}}</a></li>
                                 {% endfor %}
-                                <!-- <li class="navigation__item"><a href="/about/" target="_blank" title="about" class="about_tag_btn">关于我</a></li> -->
                             </ul>
                         </nav>
                     </div>
@@ -33,7 +28,6 @@
                 </div>
             </div>
         </div>
-
         {% if site.cover_color %}
         <div class="panel-cover--overlay cover-{{site.cover_color}}"></div>
         {% else %}

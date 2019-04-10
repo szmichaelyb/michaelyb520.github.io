@@ -11,32 +11,19 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="Michael">
     <meta name="keywords" content="Michael,杨斌,Michael's Blog,杨斌的博客,Michael的博客">
-
     <!--网站标题栏图标-->
     <link rel="icon" href="/assets/images/favicon.ico" type="image/png" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico"  type="image/png" />
     <link rel="bookmark" href="/assets/images/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="{{'/css/main.min.css' | prepend: site.baseurl }}" />
     <link rel="stylesheet" href="{{'/components/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}" />
-    <!-- <link rel="stylesheet" href="{{ '/static/css/pygments.css' | prepend: site.baseurl }}" /> -->
-
+    <!-- <link rel="stylesheet" href="{{'/static/css/pygments.css' | prepend: site.baseurl }}" /> -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
-
-    <!-- 站点统计 -->
-    <!-- 因七牛强制过期『dn-lbstatics.qbox.me』域名，与客服沟通无果，只能更换域名到『busuanzi.ibruce.info』！ -->
-    <!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
-    <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
+    <!-- 站点统计 + 引入jQuery + 代码高亮 -->
     <script type="text/javascript" src="{{'/js/busuanzi.min.js' | prepend: site.baseurl }}"></script>
-    <!-- 引入jQuery -->
     <script type="text/javascript" src="{{'/components/jquery/dist/jquery.min.js' | prepend: site.baseurl }}"></script>
-    <!-- 代码高亮 -->
     <script type="text/javascript" src="{{'/js/highlight.pack.js' | prepend: site.baseurl }}"></script>
-
-    <!--来访用户的IP和地区-->
-    <!--<script type="text/javascript" src="http://ip.chinaz.com/getip.aspx"></script>-->
-
-    <!--Web版本网站统计，不是移动端app的百度统计哈-->
     <!-- 百度统计 -->
     {% if site.baidu.id %}
     <script>
