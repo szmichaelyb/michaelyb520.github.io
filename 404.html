@@ -16,8 +16,9 @@ title: 您访问了火星上的页面(404)
       var pageurl = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";
       var pageidentifier = "{{ page.url }}";
       var baseurl = "{{ site.baseurl }}";
-      alert(baseurl);
-      console.log(baseurl);
+      // alert(baseurl);
+      // console.log(baseurl);
+      return baseurl;
     };
   </script>
 </head>
@@ -29,7 +30,7 @@ title: 您访问了火星上的页面(404)
     var baseurl = "{{ site.baseurl }}";
     // window.location = baseurl + "../../../404/";
     window.location = baseurl + "/404/";
-    console.log(baseurl);
+    // console.log(baseurl);
   </script>
 </body>
 
