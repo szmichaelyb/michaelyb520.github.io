@@ -13,6 +13,12 @@ url: "http://michaelyb.top"
 
 permalink: /:year/:month/:title/
 
+# 1 : 创建播放器, 0 : 不创建播放器
+# 经验证，写0也会创建。
+# 得出结论：只要是数字(不管是纯数字，还是数字字符串)，都会视为有值，为真，就会创建播放器
+# 只有不传值时，及右边什么也不写的时候，才视为假
+musicplay: 1
+
 # Format
 # highlighter: rouge
 # highlighter: pygments
