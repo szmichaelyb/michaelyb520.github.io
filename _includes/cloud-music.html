@@ -15,7 +15,7 @@
 	<audio src="{{'/assets/mp3/许巍-蓝莲花.mp3' | prepend: site.baseurl }}" controls="controls" loop="loop" autoplay="autoplay" type="audio/mp3">亲 您的浏览器不支持html5的audio标签</audio>
 	</table>
 </div> -->
-<style type="text/css">
+<!-- <style type="text/css">
 	#music_app {
         max-width: 50px;
         height: 50px;
@@ -33,7 +33,8 @@
         from{transform: rotate(0deg);}
         to{transform: rotate(360deg);}
     }
-</style>
+</style> -->
+<link rel="stylesheet" href="{{'/css/musicplay.min.css' | prepend: site.baseurl }}" />
 <div id="dg" style="z-index:9999; position:fixed !important; right:0px; top:0px;">
 	<table width="100%" style="position:absolute; width:260px; right:0px; top:0px;"><div id="music_app"></div></table>
 </div>

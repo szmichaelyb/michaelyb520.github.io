@@ -2,7 +2,8 @@
     max-width: 50px;
     height: 50px;
     border: 1px solid #ccc;
-    display: list-item;
+    /*display: list-item;列表展示，如果不展示列表，会显示一个小点，这里不需要，就改成inline-block*/
+    display: inline-block;
     position: relative;
 }
 /*#music_app .info {
