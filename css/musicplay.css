@@ -1,0 +1,17 @@
+#music_app {
+    max-width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: list-item;
+    position: relative;
+}
+/*#music_app .info {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -74.445px;
+}*/
+@keyframes muiscIconRotate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

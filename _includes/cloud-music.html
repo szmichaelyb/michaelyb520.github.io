@@ -1,0 +1,48 @@
+<!-- cloud music -->
+<!-- auto=1 可以控制自动播放与否，当值为 1 即打开网页就自动播放，值为 0 时需要访客手动点击播放 -->
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
+        src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height=66">
+</iframe> -->
+
+<!-- <embed src="{{'/assets/mp3/许巍-蓝莲花.mp3' | prepend: site.baseurl }}" autostart="1" loop=-1 type="application/x-mplayer2" width="400" height="64"></embed> -->
+<!-- <div style="display: none;">
+	<audio src="{{'/assets/mp3/许巍-蓝莲花.mp3' | prepend: site.baseurl }}" controls="controls" loop="loop" autoplay="autoplay">亲 您的浏览器不支持html5的audio标签</audio>
+</div> -->
+
+
+<!-- <div id="dg" style="z-index: 9999; position: fixed ! important; right: 0px; top: 0px;">
+	<table width=""100% style="position: absolute; width:260px; right: 0px; top: 0px;">
+	<audio src="{{'/assets/mp3/许巍-蓝莲花.mp3' | prepend: site.baseurl }}" controls="controls" loop="loop" autoplay="autoplay" type="audio/mp3">亲 您的浏览器不支持html5的audio标签</audio>
+	</table>
+</div> -->
+<style type="text/css">
+	#music_app {
+        max-width: 50px;
+        height: 50px;
+        border: 1px solid #ccc;
+        display: list-item;
+        position: relative;
+    }
+    /*#music_app .info {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -74.445px;
+    }*/
+    @keyframes muiscIconRotate{
+        from{transform: rotate(0deg);}
+        to{transform: rotate(360deg);}
+    }
+</style>
+<div id="dg" style="z-index:9999; position:fixed !important; right:0px; top:0px;">
+	<table width="100%" style="position:absolute; width:260px; right:0px; top:0px;"><div id="music_app"></div></table>
+</div>
+<script type="text/javascript" src="{{'/js/muisc_play.js' | prepend: site.baseurl }}"></script>
+<script>
+   SMmuiscPlay({
+       el: "music_app",
+       audioUrl:"{{'/assets/mp3/大王叫我来巡山.mp3' | prepend: site.baseurl }}",
+       position: "top:3px;right:3px",//右上角
+       animaClass: "muiscIconRotate"
+   });
+</script>

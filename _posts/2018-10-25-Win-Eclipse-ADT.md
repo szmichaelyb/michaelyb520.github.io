@@ -5,6 +5,7 @@ author: Michael
 Date: 2018-10-25 10:13:00 +8000
 Categories: Android开发
 tags: Eclipse
+music-id: 1
 ---
 
 ### ADT下载地址（含各版本），最新ADT-23.0.6
