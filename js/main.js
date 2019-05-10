@@ -42,22 +42,22 @@ $(document).ready(function () {
         // console.log('panel_left_width = ' + panel_left_width);
         // 这里加一个过滤，是为了避免一些没必要的计算
         // 仔细想了一下，这里还是不过滤了，这样就不用再"blog"按钮处加一个延时刷新了
-        if (panel_cover.hasClass('panel-cover--collapsed')) {
-            if (panel_left_width !== c_width) {
-                var swing = 'swing';
-                console.log('panel_left_width = ' + panel_left_width);
-                if (panel_left_width >= 500) {
-                    panel_cover.animate({'max-width': '500px', 'width': '30%'}, 400, swing = 'swing', function () {});
-                    m_panel_right.css({'margin-left': '500px', 'width': (c_width - 500) + 'px'});
-                } else if (panel_left_width < 500) {
-                    m_panel_right.css({'margin-left': panel_left_width + 'px', 'width': (c_width - panel_left_width) + 'px'});
-                    // panel_cover.css({'max-width': 'none', 'width': '100%'});
-                    // m_panel_right.css({'margin-left': '30px', 'margin-right': '30px', 'width': (c_width - 60) + 'px'});
-                }
-            } else {
-                m_panel_right.css({'margin-left': '30px', 'margin-right': '30px', 'width': (c_width - 60) + 'px'});
+        // if (panel_cover.hasClass('panel-cover--collapsed')) {
+        if (panel_left_width !== c_width) {
+            var swing = 'swing';
+            // console.log('panel_left_width = ' + panel_left_width);
+            if (panel_left_width >= 500) {
+                panel_cover.animate({'max-width': '500px', 'width': '30%'}, 400, swing = 'swing', function () {});
+                m_panel_right.css({'margin-left': '500px', 'width': (c_width - 500) + 'px'});
+            } else if (panel_left_width < 500) {
+                m_panel_right.css({'margin-left': panel_left_width + 'px', 'width': (c_width - panel_left_width) + 'px'});
+                // panel_cover.css({'max-width': 'none', 'width': '100%'});
+                // m_panel_right.css({'margin-left': '30px', 'margin-right': '30px', 'width': (c_width - 60) + 'px'});
             }
+        } else {
+            m_panel_right.css({'margin-left': '30px', 'margin-right': '30px', 'width': (c_width - 60) + 'px'});
         }
+        // }
     }
 
     // other_tag_btn.click(function () {
@@ -83,17 +83,17 @@ $(document).ready(function () {
             // 仔细想了一下，这里还是不要使用延时刷新了，在 panel_right_resize 函数中放开对 panel-cover--collapsed 的过滤比较，有问题再改回来
             // 在 panel_right_resize 函数中，由于加了 if (panel_cover.hasClass('panel-cover--collapsed')) 的过滤。
             // 因此在这里加了加个定时刷新一下就可以在点击blog按钮后，页面计算
-            setTimeout(function () {
-                var protocol = window.location.protocol;
-                var domain = window.location.host;
-                var url = protocol + '//' + domain + '/#blog';
-                location.reload(url);
-                // console.log(url);
-                // 下面的没有效果
-                // location.assign(url);
-                // document.execCommand('Refresh');
-                // window.location.href='/#blog';
-            }, 401);
+            // setTimeout(function () {
+            //     var protocol = window.location.protocol;
+            //     var domain = window.location.host;
+            //     var url = protocol + '//' + domain + '/#blog';
+            //     location.reload(url);
+            //     // console.log(url);
+            //     // 下面的没有效果
+            //     // location.assign(url);
+            //     // document.execCommand('Refresh');
+            //     // window.location.href='/#blog';
+            // }, 401);
         }
     });
 
