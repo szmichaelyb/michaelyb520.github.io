@@ -12,7 +12,7 @@
     left: 50%;
     margin-left: -74.445px;
 }*/
-@keyframes muiscIconRotate{
+@keyframes musicIconRotate{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
 }
