@@ -1,8 +1,8 @@
 $(document).ready(function () {
     // 关于Duplicate jQuery Selector警告：
-// 如果你在一个函数中重复写这个id的选择器，你就可能遇到这种警告，而这种警告通常实在Intellj系列的编辑器中显示。
-// 表示在代码中，多处使用了同一个id选择器，JQuery建议你使用一个变量去存储这个选择器，而不是每次用的时候便拿来调用一下，
-// 它不会帮你做缓存，而是重新去取。
+    // 如果你在一个函数中重复写这个id的选择器，你就可能遇到这种警告，而这种警告通常实在Intellj系列的编辑器中显示。
+    // 表示在代码中，多处使用了同一个id选择器，JQuery建议你使用一个变量去存储这个选择器，而不是每次用的时候便拿来调用一下，
+    // 它不会帮你做缓存，而是重新去取。
 
     var m_windown = $(window);
     var m_panel_left = $("#michael-panel-left");
@@ -63,6 +63,7 @@ $(document).ready(function () {
         var currentWidth = panel_cover.width();
         var swing = 'swing';
         if (currentWidth < 960) {
+            if (panel_cover.hasClass('panel-cover--collapsed')) return;
             panel_cover.addClass('panel-cover--collapsed');
             // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
         } else {
@@ -72,21 +73,6 @@ $(document).ready(function () {
             // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
         }
     });
-
-// post_list_btn.click(function() {
-//     // If already in blog, return early without animate overlay panel again.
-//     var currentWidth = panel_cover.width();
-//     var swing = 'swing';
-//     if (currentWidth < 960) {
-//         // panel_cover.addClass('panel-cover--collapsed');
-//         // panel_cover.backgroundImage = url('/assets/images/background-cover.jpg');
-//     } else {
-//         panel_cover.css('max-width', currentWidth);
-//         panel_cover.animate({'max-width': '500px', 'width': '30%'}, 400, swing = 'swing', function() {});
-//         m_panel_right.css({'margin-left':500,'width':c_width - 500});
-//         // panel_cover.backgroundImage = url('/assets/images/background-cover---.jpg');
-//     }
-// });
 
     if (window.location.hash && window.location.hash === "#blog") {
         if (panel_cover.hasClass('panel-cover--collapsed')) return;
@@ -137,11 +123,11 @@ $(document).ready(function () {
         panel_right_resize();
     });
 
+    panel_right_resize();
+
     window.onload = function () {
         // panel_right_resize();
     }
-
-    panel_right_resize();
 });
 
 
