@@ -61,7 +61,7 @@ $(document).ready(function () {
     }
 
     // other_tag_btn.click(function () {
-        // panel_right_resize();
+    //     panel_right_resize();
     // });
 
     blog_btn.click(function () {
@@ -147,11 +147,4 @@ $(document).ready(function () {
     });
 
     panel_right_resize();
-<<<<<<< HEAD
-
-    window.onload = function () {
-        // panel_right_resize();
-    }
-=======
->>>>>>> 8a333624a567879a3a5d1250c2e70b92a2ff69d8
 });
