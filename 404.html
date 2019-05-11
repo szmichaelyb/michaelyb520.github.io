@@ -7,16 +7,13 @@ title: 您访问了火星上的页面(404)
 <head>
   <style type="text/css" media="screen">
     *{margin: 0; padding: 0;}
-    /*.container {margin: 10px auto;max-width: 600px;text-align: center;}*/
-    /*h1 {margin: 30px 0;font-size: 4em;line-height: 1;letter-spacing: -1px;}*/
   </style>
-  <script type="text/javascript" src="../../../components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="{{'/components/jquery/dist/jquery.min.js' | prepend: site.baseurl }}"></script>
   <script type="text/javascript">
     function geturl () {
       var pageurl = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";
       var pageidentifier = "{{ page.url }}";
       var baseurl = "{{ site.baseurl }}";
-      // alert(baseurl);
       // console.log(baseurl);
       return baseurl;
     };
@@ -28,7 +25,6 @@ title: 您访问了火星上的页面(404)
     // $("#page404").load("../../../404/index.html");
     // geturl();
     var baseurl = "{{ site.baseurl }}";
-    // window.location = baseurl + "../../../404/";
     window.location = baseurl + "/404/";
     // console.log(baseurl);
   </script>

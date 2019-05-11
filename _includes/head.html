@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="{{'/css/main.min.css' | prepend: site.baseurl }}" />
     <link rel="stylesheet" href="{{'/components/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}" />
     <!-- <link rel="stylesheet" href="{{'/static/css/pygments.css' | prepend: site.baseurl }}" /> -->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+    <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" /> -->
+    <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" /> -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl }}" />
     <!-- 站点统计 + 引入jQuery + 代码高亮 -->
     <script type="text/javascript" src="{{'/js/busuanzi.min.js' | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{'/components/jquery/dist/jquery.min.js' | prepend: site.baseurl }}"></script>
