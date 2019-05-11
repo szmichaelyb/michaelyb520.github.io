@@ -12,14 +12,15 @@
 
 <link rel="stylesheet" href="{{'/css/musicplay.min.css' | prepend: site.baseurl }}" />
 <div id="dg" style="z-index:9999; position:fixed !important; right:0px; top:0px;">
-	<table width="100%" style="position:absolute; width:260px; right:0px; top:0px;"><div id="musicapp"></div></table>
+	<!--<table width="100%" style="position:absolute; width:260px; right:0px; top:0px;"><div id="musicapp"></div></table>-->
+	<div id="musicapp"></div>
 </div>
 <script type="text/javascript" src="{{'/js/musicplay.min.js' | prepend: site.baseurl }}"></script>
-<script>
+<script type="text/javascript">
 	YBmuiscPlay({
-       el: "musicapp",
-       audioUrl:"{{'/assets/mp3/大王叫我来巡山.mp3' | prepend: site.baseurl }}",
-       position: "top:3px;right:3px",//右上角
-       animaClass: "musicIconRotate"
-   });
+		el: "musicapp",
+		audioUrl: "{{'/assets/mp3/大王叫我来巡山.mp3' | prepend: site.baseurl }}",
+		position: "top:3px;right:3px",//右上角
+		animaClass: "musicIconRotate"
+	});
 </script>
