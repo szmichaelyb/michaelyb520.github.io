@@ -22,11 +22,11 @@ tags: iOS动画
 
 [本文 iOS Demo](https://github.com/xietao3/XTBezierPathBuilderDemo) 实现以下功能:
 
-实现功能|描述
--|-
-绘制贝塞尔曲线|1、点击空白处设置贝塞尔曲线的点  2、可以设置贝塞尔曲线阶数  3、播放贝塞尔曲线绘制过程  4、拖动滑块，自由查看绘制过程每一个瞬间
-简易曲线图表|每两个点之间都是用3阶贝塞尔曲线连接(细节待完善)
-过山车|1、在空白处绘制贝塞尔曲线  2、过山车沿着绘制的贝塞尔曲线行驶  3、支持多个连接的贝塞尔曲线路径
+| 实现功能 | &emsp;描述 |
+| ------ | :------ |
+| 绘制贝塞尔曲线 | &emsp;1、点击空白处设置贝塞尔曲线的点<br/>&emsp;2、可以设置贝塞尔曲线阶数<br/>&emsp;3、播放贝塞尔曲线绘制过程<br/>&emsp;4、拖动滑块，自由查看绘制过程每一个瞬间 |
+| 简易曲线图表 | &emsp;每两个点之间都是用3阶贝塞尔曲线连接(细节待完善)过山车 |
+| 过山车 | &emsp;1、在空白处绘制贝塞尔曲线<br/>&emsp;2、过山车沿着绘制的贝塞尔曲线行驶<br/>&emsp;3、支持多个连接的贝塞尔曲线路径 |
 
 **Demo示例图**
 ![8阶贝塞尔曲线绘制过程](http://upload-images.jianshu.io/upload_images/1319710-b802c4d1da045b6e.gif?imageMogr2/auto-orient/strip)
@@ -34,10 +34,10 @@ tags: iOS动画
 # 贝塞尔曲线的绘制原理
 
 
-说到绘制原理，如果贴👇这张图，我只能说：什么鬼！！！我看不懂，听不见，你说什么... 
+说到绘制原理，如果贴👇这张图，我只能说：什么鬼！！！我看不懂，听不见，你说什么...
 路人甲：简单点...说话的方式简单点~
 
-![失败案例](http://upload-images.jianshu.io/upload_images/1819486-bfbef7229c101bde?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+![失败案例](http://upload-images.jianshu.io/upload_images/1819486-bfbef7229c101bde?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 首先提供[一个可以动态绘制贝塞尔曲线的网站](http://myst729.github.io/bezier-curve/)帮助你更好地理解贝塞尔曲线的绘制。
 ### 1.  点
@@ -74,17 +74,17 @@ tags: iOS动画
 ### 4. N阶贝塞尔曲线
 稍微了解算法的同学就能发现，其实 **点生线，线生点** 是一个递归的过程，通过底层的点，一步步推算出最高阶的点。整个推导过程像一个金字塔，底部点的数量最多，每高一阶点的数量就减1，直至最高阶只有1个点。
 
-**下面是递归代码： **
+**下面是递归代码：**
 
 ```
 // 贝塞尔曲线每高一阶  需要递归次数+1
 + (NSArray *)recursionGetsubLevelPointsWithSuperPoints:(NSArray *)points progress:(CGFloat)progress{
-    // 得到最终的点 正确结束递归 
+    // 得到最终的点 正确结束递归
     if (points.count == 1) return points;
-    
+
     NSMutableArray *tempArr = [[NSMutableArray alloc] init];
     for (int i = 0; i < points.count-1; i++) {
-        // 第一个点 
+        // 第一个点
         NSValue *preValue = [points objectAtIndex:i];
         CGPoint prePoint = preValue.CGPointValue;
         // 第二个点
