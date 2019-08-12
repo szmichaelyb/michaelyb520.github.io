@@ -21,14 +21,14 @@ tags: iOS开发
 
 ```objective-c
 #pragma mark 键盘出现
--(void)keyboardWillShow:(NSNotification*)note
+- (void)keyboardWillShow:(NSNotification*)note
 {
     CGRectkeyBoardRect=[note.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
     self.tableView.contentInset= UIEdgeInsetsMake(0,0, keyBoardRect.size.height,0);
 }
 
 #pragma mark 键盘消失
--(void)keyboardWillHide:(NSNotification*)note
+- (void)keyboardWillHide:(NSNotification*)note
 {
     self.tableView.contentInset = UIEdgeInsetsZero;
 }
@@ -38,7 +38,7 @@ tags: iOS开发
 
 ```objective-c
 #pragma mark 键盘出现
--(void)keyboardWillShow:(NSNotification *)note
+- (void)keyboardWillShow:(NSNotification *)note
 {
     CGFloat screenW = [UIScreen mainScreen].bounds.size.width;
     CGFloat screenH = [UIScreen mainScreen].bounds.size.height;
@@ -46,7 +46,8 @@ tags: iOS开发
     self.tableView.frame = CGRectMake(0, 64, screenW, screenH - 64 - keyBoardRect.size.height);
 }
 
-#pragma mark 键盘消失-(void)keyboardWillHide:(NSNotification *)note
+#pragma mark 键盘消失
+- (void)keyboardWillHide:(NSNotification *)note
 {
     self.tableView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64);
 }
