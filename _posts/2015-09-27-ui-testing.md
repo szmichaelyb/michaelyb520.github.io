@@ -190,7 +190,7 @@ func testLoginSuccessfully() {
 对于 ViewController 切换的判断，我们可以通过判断 navigation bar 上的 title 是否正确来加以判断。
 
 ### 实时的 UI 反馈测试和关于 XCUIElementQuery 的说明
- 
+
 我们接下来测试 DetailViewController 中的 Switcher 点击。在成功登陆之后，我们可以看到一个默认为 off 状态的 switcher 按钮。点击打开这个按钮，下面的 count label 计数就会加一。首先我们需要成功登陆，在上面的测试例 (`testLoginSuccessfully`) 我们已经测试了成功登陆，我们先在新的测试方法中模拟登陆过程：
 
 ```swift

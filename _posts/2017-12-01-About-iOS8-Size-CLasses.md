@@ -4,7 +4,7 @@ title:  关于 iOS8 Size Classes的理解与使用​
 author: Michael
 Date: 2017-12-01 09:34:00 +8000
 Categories: iOS开发
-tags: iOS
+tags: iOS开发
 ---
 
 ## Size Classes是什么

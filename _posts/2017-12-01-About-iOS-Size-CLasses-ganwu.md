@@ -4,7 +4,7 @@ title:  iOS 8 AutoLayout与Size Class自悟
 author: Michael
 Date: 2017-12-01 10:34:00 +8000
 Categories: iOS开发
-tags: iOS
+tags: iOS开发
 ---
 
 ## 前言

@@ -3,7 +3,8 @@ title: 学习并理解 23 种设计模式
 layout: post
 author: Michael
 date: '2019-01-22 10:40:11 +0800'
-categories: iOS
+categories: Java开发
+tags: Java开发
 ---
 
 ![](https://user-gold-cdn.xitu.io/2019/3/12/16970ab96ac3a663?imageView2/1/w/1304/h/734/q/85/interlace/1)

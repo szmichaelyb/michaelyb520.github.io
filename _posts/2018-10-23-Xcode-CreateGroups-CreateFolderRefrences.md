@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Xcodde Create Groups 与 Create Folder References的却别，选哪个？
+title:  Xcodde Create Groups 与 Create Folder References的区别，选哪个？
 author: Michael
 Date: 2018-10-23 11:10:00 +8000
 Categories: iOS开发
@@ -83,5 +83,5 @@ tags: iOS开发
 
 - 其他参考：[Xcode 中 Create groups 与 Create folder references](https://www.jianshu.com/p/7c77ac2a3fe7?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
-  ​
+  
 

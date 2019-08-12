@@ -4,7 +4,7 @@ title:  纯代码sizeclass使用
 author: Michael
 Date: 2017-12-01 10:35:00 +8000
 Categories: iOS开发
-tags: iOS
+tags: iOS开发
 ---
 
 叫兽又回来了，之前我们讲到了`sizeclass`在`storeboard`和`xib`中的使用，现在大家应该也都会用了。有的人问了`sizeclass`只能与`Interface Builder`一起使用吗?
