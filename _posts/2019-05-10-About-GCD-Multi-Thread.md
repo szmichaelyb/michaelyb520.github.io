@@ -7,7 +7,7 @@ Categories: iOS开发
 tags: iOS开发
 ---
 
-![iOS开发中的GCD多线程讲解](/assets/images/2019/gcd/iOS-learning-GCD-001.png)
+![iOS开发中的GCD多线程讲解](/assets/images/2019/thread/队列02.png)
 
 >本文用来介绍 iOS 多线程中 GCD 的相关知识以及使用方法。这大概是史上最详细、清晰的关于 GCD 的详细讲解 + 总结 的文章了。通过本文，您将了解到：
 >1. GCD 简介
