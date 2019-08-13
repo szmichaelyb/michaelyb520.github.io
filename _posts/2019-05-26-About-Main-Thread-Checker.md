@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  主线程问题:提醒Main Thread Checker
-Subtitle:关于UI API called on a background thread的解释
+title: 主线程问题:提醒Main Thread Checker,关于UI API called on a background thread的解释
 author: Michael
 Date: 2019-05-26 10:29:00 +8000
 Categories: iOS开发

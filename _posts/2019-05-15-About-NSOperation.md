@@ -1,7 +1,6 @@
 ---
 layout: post
 title: iOS 多线程：『NSOperation、NSOperationQueue』详尽总结
-Subtitle:关于UI API called on a background thread的解释
 author: Michael
 Date: 2019-05-15 10:19:00 +8000
 Categories: iOS开发
